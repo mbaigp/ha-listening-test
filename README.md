@@ -1,4 +1,4 @@
-# Similarity Experiment
+# Harmonic Re-ranking listening test
 
 ## Running
 Create and activate virtualenv
