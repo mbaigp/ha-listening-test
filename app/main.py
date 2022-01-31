@@ -121,6 +121,7 @@ def main():
             for i, (column, item) in enumerate(zip(columns,items)):
                 with column:
                     st.markdown(f'### Playlist #{i+1}')
+                    st.markdown(f'Sequence: {items[item]}')
                     for n in items[item]:
                         st.audio(audio[n])
                     st.select_slider('How harmonic?', options=SIMILARITY.keys(), key=item)
