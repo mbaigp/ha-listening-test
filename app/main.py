@@ -33,7 +33,7 @@ and **don't reload the page** until you are finished, or you will lose your prog
 📃 You will be presented with four different playlists that contain the same music tracks.
 **You don't need to listen to each track for the full duration**, please listen to the tracks **just enough** to glimpse each track's key.
 
-🎯 There are 10 playlists in total, your overall progress is indicated by the progress bar under these
+🎯 There are 4 playlists in total, your overall progress is indicated by the progress bar under these
 instructions.
 
 ⏳ Please **don't think too much** about the answers or spend too much time on each track, answer intuitively by
