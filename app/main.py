@@ -56,11 +56,6 @@ END_MESSAGE = """
 
 LETTERS = ['A', 'B', 'C', 'D']
 
-
-def jamendo_url(track_id: int) -> str:
-    return f'https://mp3d.jamendo.com/?trackid={track_id}&format=mp32#t=30,45'
-
-
 def save_respose(df: pd.DataFrame) -> None:
     print(df)
     aws_path = st.secrets['AWS_PATH']
@@ -70,11 +65,13 @@ def save_respose(df: pd.DataFrame) -> None:
 
 def save_answer(keys: list[str], track_id: int, total: int) -> None:
     st.session_state['progress'] += 1
-    results: dict[str, Optional[int]]
+
+    results = {k: SIMILARITY[st.session_state[k]] for k in keys}
     if st.session_state['skip']:
-        results = {k: None for k in keys}
+        results['uncertainty'] = 'UNCERTAIN'
     else:
-        results = {k: SIMILARITY[st.session_state[k]] for k in keys}
+        results['uncertainty'] = 'CERTAIN'
+
     st.session_state['results'][track_id] = results
 
     if st.session_state['progress'] == total:
@@ -94,7 +91,7 @@ def main():
     st.markdown('# Playlist harmonicity experiment')
     st.markdown(DESCRIPTION)
 
-    with open('data.json') as fp:
+    with open('listening_selection_data_5.json') as fp:
         data_all = json.load(fp)
 
     if 'progress' not in st.session_state:
@@ -128,9 +125,9 @@ def main():
                         st.audio(audio[n])
                     st.select_slider('How harmonic?', options=SIMILARITY.keys(), key=item)
 
-            st.checkbox('I am not very familiar with this genre (skip)', key='skip',
-                        help='Only tick this checkbox if you have ***zero*** idea on how to rate the playlists, '
-                             'and you will skip this playlist')
+            st.checkbox('I have very low confidence in judging transitions in this playlist', key='skip',
+                        help='Only tick this checkbox if you have ***zero*** idea on how to rate the harmonicity of transitions, '
+                             'your results will be flagged as dubious')
             st.form_submit_button(on_click=save_answer, args=[keys, reference_track_id, total])
     else:
         st.balloons()
