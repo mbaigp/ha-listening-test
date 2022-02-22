@@ -5,16 +5,9 @@ from typing import Optional
 import requests
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
-
 import pandas as pd
 import streamlit as st
 
-SIMILARITY = {
-    'Not harmonic': 0,
-    'Somewhat harmonic': 1,
-    'Quite harmonic': 2,
-    'Very harmonic': 3
-}
 
 DESCRIPTION = """
 👋 Welcome! This experiment should take around 40 minutes of your time.
@@ -41,11 +34,11 @@ adjusting the rating to that which feels right after familiarizing yourself with
 Don't forget that there are no wrong answers.
 
 ⭐ For each playlist,
-please rate **the harmonicity of the transitions** on the 4-point scale from _"not harmonic"_ to _"very harmonic"_.
+please rate **the harmonicity of the transitions**.
 Your task is to judge how well songs in a playlist would be mixed with the previous song. In case you doubt if a transition is harmonic,
 we recommend to play both songs simultaneously. Overall:
 
-### Which of these playlists has smoother transitions in terms of musical harmony?
+### Mark the transitions that sound harmonic to you:
 """
 
 END_MESSAGE = """
@@ -112,6 +105,11 @@ def main():
             for method in data['options']:
                 items[method]=data['options'][method]['permutation']
             reference_track_id = data['playlist']['pid']
+
+            abc = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']
+            randseed = (list(range(len(items[method]))))
+            random.shuffle(randseed)
+            song_keys=[abc[i] for i in randseed]
             #download the audio
             audio = []
             for uri in data['uris']:
@@ -121,10 +119,14 @@ def main():
             for i, (column, item) in enumerate(zip(columns,items)):
                 with column:
                     st.markdown(f'### Playlist #{i+1}')
-                    st.markdown(f'Sequence: {items[item]}')
-                    for n in items[item]:
+                    st.markdown(f'Sequence: {[song_keys[x] for x in items[item]]}')
+
+                    for k,n in enumerate(items[item]):
                         st.audio(audio[n])
-                    st.select_slider('How harmonic?', options=SIMILARITY.keys(), key=item)
+                        #if a transition
+                        if k != len(items[item])-1 :
+                            #st.markdown(f':arrow_up_down:')
+                            st.checkbox(label='↕️ transition '+str(song_keys[items[item][k]])+'➡'+str(song_keys[items[item][k+1]])+' sounds harmonic ↕️', value=False, key=str(i)+str(n))
 
             st.checkbox('I have very low confidence in judging transitions in this playlist', key='skip',
                         help='Only tick this checkbox if you have ***zero*** idea on how to rate the harmonicity of transitions, '
