@@ -161,8 +161,8 @@ def main():
                                     colordict[color2] = colordict[color]
                             #display the transition with the assigned color and the letter aliases
                             st.markdown('<span style="font-size:36px;background-color: '+colordict[color]+'">'+color+'</span>', unsafe_allow_html=True)
-                            radio = st.radio(label = 'Harmonic compatibility between the track above with the track below is :', options = ['good','bad'], key=str(i)+str(k))
-                            if radio == 'bad':
+                            radio = st.radio(label = 'The track above and the track below have :', options = ['good harmonic compatibility','bad harmonic compatibility'], key=str(i)+str(k))
+                            if radio == 'bad harmonic compatibility':
                                 st.session_state['results'][progress, k, i] = 0
                             else:
                                 st.session_state['results'][progress, k, i] = 1
