@@ -1,333 +1,144 @@
 [
     {
         "uris": [
-            "spotify:track:3RNyGLgSvmVRZ7xKUp8Wgd",
-            "spotify:track:0LxeKwg9t7HOnyfv4bTALT",
-            "spotify:track:5AJrhrwz4oSZX2PwwV4qrN",
-            "spotify:track:2icouZbxwqoL63gHhO2vGd",
-            "spotify:track:6JGGbX4EJ39tQO8eupxdAL",
-            "spotify:track:0qZzuEVqVASvsjl5rQSzy8",
-            "spotify:track:3YYCbYaIjOiI8xYl2uQZmh",
-            "spotify:track:69YCkfZS0aOjEUPwQ4zCZ9",
-            "spotify:track:1JTXCcBBlHPyjA3Dv7Ynya",
-            "spotify:track:5WkFcV8MymMUS0zc64sN41"
+            "spotify:track:4f8hBeMXMvssn6HtFAtblo",
+            "spotify:track:5JSUtDD6KzntMo1LC8Fg86",
+            "spotify:track:1UlOjQwYS4KG5R86HIw26O",
+            "spotify:track:6ivB5sfscatkVNziN4puSM",
+            "spotify:track:0yk76fmBuZo4aBQ96fUqC9",
+            "spotify:track:3eCReXiA9N1U8kJ9n8hcov",
+            "spotify:track:2rFzQ5zKFVVclaXpqwfLRy",
+            "spotify:track:0QIYINh2AwmOmdu8CRYvlw",
+            "spotify:track:52mbmHDRwOfr9fqIvI4Irh",
+            "spotify:track:3FzBRKgDtjtv0Xu0diOzib"
         ],
         "playlist": {
-            "name": "Summer 2015",
+            "name": "Breaking Bad",
             "collaborative": "false",
-            "pid": 716747,
-            "modified_at": 1437609600,
-            "num_tracks": 59,
-            "num_albums": 57,
-            "num_followers": 702,
+            "pid": 746359,
+            "modified_at": 1381104000,
+            "num_tracks": 106,
+            "num_albums": 102,
+            "num_followers": 53519,
             "tracks": [
                 {
-                    "pos": 0,
-                    "artist_name": "Mungo Jerry",
-                    "track_uri": "spotify:track:3RNyGLgSvmVRZ7xKUp8Wgd",
-                    "artist_uri": "spotify:artist:2mbvqMGpwLsakeH45p1Jrb",
-                    "track_name": "In the Summertime",
-                    "album_uri": "spotify:album:30UgyUTvmdYXNo7CeMabXY",
-                    "duration_ms": 211880,
-                    "album_name": "In the Summertime"
+                    "pos": 1,
+                    "artist_name": "Marty Robbins",
+                    "track_uri": "spotify:track:4f8hBeMXMvssn6HtFAtblo",
+                    "artist_uri": "spotify:artist:0Xi59sEw38vRvwleSAVqoo",
+                    "track_name": "El Paso",
+                    "album_uri": "spotify:album:3kQpBS26lAj0A0VGl1snRl",
+                    "duration_ms": 259306,
+                    "album_name": "Gunfighter Ballads And Trail Songs"
                 },
                 {
-                    "pos": 6,
-                    "artist_name": "Arctic Monkeys",
-                    "track_uri": "spotify:track:0LxeKwg9t7HOnyfv4bTALT",
-                    "artist_uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH",
-                    "track_name": "Suck It and See",
-                    "album_uri": "spotify:album:2ym2jcqckXqWeTDoxz3Kst",
-                    "duration_ms": 225986,
-                    "album_name": "Suck It and See"
+                    "pos": 3,
+                    "artist_name": "The Limeliters",
+                    "track_uri": "spotify:track:5JSUtDD6KzntMo1LC8Fg86",
+                    "artist_uri": "spotify:artist:08Zx5pufnilNAjm28CauiH",
+                    "track_name": "Take My True Love By The Hand",
+                    "album_uri": "spotify:album:4F1SgrDLg2zdW3Ow0lTDJC",
+                    "duration_ms": 180600,
+                    "album_name": "The Limelighters"
                 },
                 {
-                    "pos": 7,
-                    "artist_name": "The Zombies",
-                    "track_uri": "spotify:track:5AJrhrwz4oSZX2PwwV4qrN",
-                    "artist_uri": "spotify:artist:2jgPkn6LuUazBoBk6vvjh5",
-                    "track_name": "Time Of The Season (Mono Version)",
-                    "album_uri": "spotify:album:7K6JtyaSSVr7HidQsCHun0",
-                    "duration_ms": 214026,
-                    "album_name": "Odessey And Oracle"
+                    "pos": 4,
+                    "artist_name": "Slim Rhodes",
+                    "track_uri": "spotify:track:1UlOjQwYS4KG5R86HIw26O",
+                    "artist_uri": "spotify:artist:2WfvzODrK268JtCsktwxtj",
+                    "track_name": "Romp and Stomp",
+                    "album_uri": "spotify:album:0IxntgdMovrEtqBmW4Fj2L",
+                    "duration_ms": 140749,
+                    "album_name": "Rock Treasures"
+                },
+                {
+                    "pos": 8,
+                    "artist_name": "Jim White",
+                    "track_uri": "spotify:track:6ivB5sfscatkVNziN4puSM",
+                    "artist_uri": "spotify:artist:3Rdkj77BOQHj5dTLveCJvI",
+                    "track_name": "Wordmule",
+                    "album_uri": "spotify:album:4Ds1uF4NVBUL9isAik3bxQ",
+                    "duration_ms": 268893,
+                    "album_name": "Wrong-Eyed Jesus!"
                 },
                 {
                     "pos": 10,
-                    "artist_name": "Cypress Hill",
-                    "track_uri": "spotify:track:2icouZbxwqoL63gHhO2vGd",
-                    "artist_uri": "spotify:artist:4P0dddbxPil35MNN9G2MEX",
-                    "track_name": "I Wanna Get High",
-                    "album_uri": "spotify:album:02lktkm4J7K7N8T63Gm7KX",
-                    "duration_ms": 174600,
-                    "album_name": "Black Sunday"
+                    "artist_name": "Mr. & Mrs. Yellowman",
+                    "track_uri": "spotify:track:0yk76fmBuZo4aBQ96fUqC9",
+                    "artist_uri": "spotify:artist:07sEtsbmW90JzfhJ9GmsID",
+                    "track_name": "Where Is Santa Claus",
+                    "album_uri": "spotify:album:7nPRCptBHN7td5mKb6ON3N",
+                    "duration_ms": 245226,
+                    "album_name": "Most Wanted Series - Yellowman"
                 },
                 {
                     "pos": 14,
-                    "artist_name": "Baccara",
-                    "track_uri": "spotify:track:6JGGbX4EJ39tQO8eupxdAL",
-                    "artist_uri": "spotify:artist:4dn4KQgTE4P3jrwa3iIVzQ",
-                    "track_name": "Yes Sir, I Can Boogie",
-                    "album_uri": "spotify:album:4I3Hda3YgYvHnO1af0frto",
-                    "duration_ms": 273933,
-                    "album_name": "The Original Hits"
+                    "artist_name": "Los Cuates de Sinaloa",
+                    "track_uri": "spotify:track:3eCReXiA9N1U8kJ9n8hcov",
+                    "artist_uri": "spotify:artist:6qrWzQSK00anTGkydomNW7",
+                    "track_name": "Negro Y Azul: The Ballad of Heisenberg (From \"Breaking Bad\" TV Series)",
+                    "album_uri": "spotify:album:4h24e3rLTL914geNkfeYO4",
+                    "duration_ms": 204826,
+                    "album_name": "Pegando Con Tuba"
                 },
                 {
                     "pos": 15,
-                    "artist_name": "Devonte Hynes",
-                    "track_uri": "spotify:track:0qZzuEVqVASvsjl5rQSzy8",
-                    "artist_uri": "spotify:artist:0M1ImWN3uInxUCZVIE9uxa",
-                    "track_name": "Palo Alto",
-                    "album_uri": "spotify:album:2fSpzlByqRy5pOOpkqUyMg",
-                    "duration_ms": 166463,
-                    "album_name": "Palo Alto (Original Motion Picture Score)"
+                    "artist_name": "The Monkees",
+                    "track_uri": "spotify:track:2rFzQ5zKFVVclaXpqwfLRy",
+                    "artist_uri": "spotify:artist:320EPCSEezHt1rtbfwH6Ck",
+                    "track_name": "Goin' Down - 2007 Remastered Version Stereo Mix",
+                    "album_uri": "spotify:album:0hYCs5ttzuQcu86VPCEsXF",
+                    "duration_ms": 262786,
+                    "album_name": "Pisces, Aquarius, Capricorn & Jones Ltd. [Deluxe Edition]"
+                },
+                {
+                    "pos": 16,
+                    "artist_name": "Knife Party",
+                    "track_uri": "spotify:track:0QIYINh2AwmOmdu8CRYvlw",
+                    "artist_uri": "spotify:artist:2DuJi13MWHjRHrqRUwk8vH",
+                    "track_name": "Bonfire",
+                    "album_uri": "spotify:album:2KZKR8bLDZPUxOE6JhTh4X",
+                    "duration_ms": 272077,
+                    "album_name": "Rage Valley EP"
                 },
                 {
                     "pos": 18,
-                    "artist_name": "Coconut Records",
-                    "track_uri": "spotify:track:3YYCbYaIjOiI8xYl2uQZmh",
-                    "artist_uri": "spotify:artist:2YKp8Odp8GGbAkVU60Yk2Y",
-                    "track_name": "The Summer",
-                    "album_uri": "spotify:album:6G6DslmLUq5k4LpYZi5ZG1",
-                    "duration_ms": 165533,
-                    "album_name": "Davy"
+                    "artist_name": "Mack Owen",
+                    "track_uri": "spotify:track:52mbmHDRwOfr9fqIvI4Irh",
+                    "artist_uri": "spotify:artist:5MUbbdGhWfZUFRFY7hj8ry",
+                    "track_name": "Somebody Just Like You",
+                    "album_uri": "spotify:album:1fN3IiT8lMvJ9X1X0JzTrT",
+                    "duration_ms": 138516,
+                    "album_name": "Sun Record's Jukebox - Rare Rock'n Roll"
                 },
                 {
                     "pos": 19,
-                    "artist_name": "The Strokes",
-                    "track_uri": "spotify:track:69YCkfZS0aOjEUPwQ4zCZ9",
-                    "artist_uri": "spotify:artist:0epOFNiUfyON9EYx7Tpr6V",
-                    "track_name": "Gratisfaction",
-                    "album_uri": "spotify:album:6Jx4cGhWHewTcfKDJKguBQ",
-                    "duration_ms": 179200,
-                    "album_name": "Angles"
-                },
-                {
-                    "pos": 20,
-                    "artist_name": "San Cisco",
-                    "track_uri": "spotify:track:1JTXCcBBlHPyjA3Dv7Ynya",
-                    "artist_uri": "spotify:artist:0Ou0138wEd8XWebhc4j7O0",
-                    "track_name": "Golden Revolver",
-                    "album_uri": "spotify:album:6llioHYeMH1V9LUM6QRnbX",
-                    "duration_ms": 176680,
-                    "album_name": "Awkward"
-                },
-                {
-                    "pos": 21,
-                    "artist_name": "Little Joy",
-                    "track_uri": "spotify:track:5WkFcV8MymMUS0zc64sN41",
-                    "artist_uri": "spotify:artist:0aLsJXIaJ6MMCZIzaGpMaX",
-                    "track_name": "The Next Time Around",
-                    "album_uri": "spotify:album:4qZTXuvn6zQXr3lhJWKfNQ",
-                    "duration_ms": 154253,
-                    "album_name": "Little Joy"
+                    "artist_name": "The Peddlers",
+                    "track_uri": "spotify:track:3FzBRKgDtjtv0Xu0diOzib",
+                    "artist_uri": "spotify:artist:1SfS0vGzcG9mHoYSJcVNRh",
+                    "track_name": "On A Clear Day You Can See Forever",
+                    "album_uri": "spotify:album:2daztqZc0TzfydECOYKy1t",
+                    "duration_ms": 219733,
+                    "album_name": "Part One"
                 }
             ],
-            "num_edits": 7,
-            "duration_ms": 12758996,
-            "num_artists": 55
+            "num_edits": 26,
+            "duration_ms": 23561532,
+            "num_artists": 101,
+            "description": "Every song ever featured on Breaking Bad!"
         },
         "options": {
             "binary": {
                 "permutation": [
                     0,
-                    6,
-                    1,
                     8,
                     2,
-                    4,
-                    9,
-                    3,
-                    5,
-                    7
-                ],
-                "distance": 4
-            },
-            "circle": {
-                "permutation": [
-                    0,
-                    1,
-                    6,
-                    3,
-                    8,
-                    4,
-                    2,
-                    5,
-                    7,
-                    9
-                ],
-                "distance": 44.33526289464208
-            },
-            "tiv": {
-                "permutation": [
-                    0,
                     6,
                     1,
-                    8,
-                    2,
-                    4,
                     3,
-                    9,
-                    7,
-                    5
-                ],
-                "distance": 0.4855125583627957
-            },
-            "ph": {
-                "permutation": [
-                    0,
                     9,
                     4,
                     5,
-                    6,
-                    7,
-                    1,
-                    8,
-                    3,
-                    2
-                ],
-                "distance": 2.0451258576890368
-            }
-        }
-    },
-    {
-        "uris": [
-            "spotify:track:2dOTkLZFbpNXrhc24CnTFd",
-            "spotify:track:3ZFTkvIE7kyPt6Nu3PEa7V",
-            "spotify:track:4lLtanYk6tkMvooU0tWzG8",
-            "spotify:track:0qOnSQQF0yzuPWsXrQ9paz",
-            "spotify:track:1mKXFLRA179hdOWQBwUk9e",
-            "spotify:track:4E5P1XyAFtrjpiIxkydly4",
-            "spotify:track:2DPYlWl50ydYsnnuryL5aX",
-            "spotify:track:1NpW5kyvO4XrNJ3rnfcNy3",
-            "spotify:track:67T6l4q3zVjC5nZZPXByU8",
-            "spotify:track:1Y4ZdPOOgCUhBcKZOrUFiS"
-        ],
-        "playlist": {
-            "name": "lit songs!",
-            "collaborative": "false",
-            "pid": 117732,
-            "modified_at": 1507593600,
-            "num_tracks": 246,
-            "num_albums": 180,
-            "num_followers": 42,
-            "tracks": [
-                {
-                    "pos": 2,
-                    "artist_name": "David Guetta",
-                    "track_uri": "spotify:track:2dOTkLZFbpNXrhc24CnTFd",
-                    "artist_uri": "spotify:artist:1Cs0zKBU1kc0i8ypK3B9ai",
-                    "track_name": "Titanium (feat. Sia) - feat. Sia",
-                    "album_uri": "spotify:album:1fAn5gw4Q5HN8Wpx2neYd2",
-                    "duration_ms": 245053,
-                    "album_name": "Nothing But the Beat Ultimate"
-                },
-                {
-                    "pos": 7,
-                    "artist_name": "Shakira",
-                    "track_uri": "spotify:track:3ZFTkvIE7kyPt6Nu3PEa7V",
-                    "artist_uri": "spotify:artist:0EmeFodog0BfCgMzAIvKQp",
-                    "track_name": "Hips Don't Lie",
-                    "album_uri": "spotify:album:5ppnlEoj4HdRRdRihnY3jU",
-                    "duration_ms": 218093,
-                    "album_name": "Oral Fixation Vol. 2"
-                },
-                {
-                    "pos": 17,
-                    "artist_name": "Bruno Mars",
-                    "track_uri": "spotify:track:4lLtanYk6tkMvooU0tWzG8",
-                    "artist_uri": "spotify:artist:0du5cEVh5yTK9QJze8zA0C",
-                    "track_name": "Grenade",
-                    "album_uri": "spotify:album:6J84szYCnMfzEcvIcfWMFL",
-                    "duration_ms": 223253,
-                    "album_name": "Doo-Wops & Hooligans"
-                },
-                {
-                    "pos": 20,
-                    "artist_name": "Gym Class Heroes",
-                    "track_uri": "spotify:track:0qOnSQQF0yzuPWsXrQ9paz",
-                    "artist_uri": "spotify:artist:4IJczjB0fJ04gs4uvP0Fli",
-                    "track_name": "Stereo Hearts (feat. Adam Levine) - feat. Adam Levine",
-                    "album_uri": "spotify:album:2mumCpGmuE9iDeOvMx6XrB",
-                    "duration_ms": 210960,
-                    "album_name": "The Papercut Chronicles II"
-                },
-                {
-                    "pos": 25,
-                    "artist_name": "P!nk",
-                    "track_uri": "spotify:track:1mKXFLRA179hdOWQBwUk9e",
-                    "artist_uri": "spotify:artist:1KCSPY1glIKqW2TotWuXOR",
-                    "track_name": "Just Give Me a Reason",
-                    "album_uri": "spotify:album:2Q9oTK48eb85waX1fFJsvj",
-                    "duration_ms": 242733,
-                    "album_name": "The Truth About Love"
-                },
-                {
-                    "pos": 40,
-                    "artist_name": "Iyaz",
-                    "track_uri": "spotify:track:4E5P1XyAFtrjpiIxkydly4",
-                    "artist_uri": "spotify:artist:5tKXB9uuebKE34yowVaU3C",
-                    "track_name": "Replay",
-                    "album_uri": "spotify:album:44hyrGuZKAvITbmrlhryf8",
-                    "duration_ms": 182306,
-                    "album_name": "Replay"
-                },
-                {
-                    "pos": 41,
-                    "artist_name": "Mike Posner",
-                    "track_uri": "spotify:track:2DPYlWl50ydYsnnuryL5aX",
-                    "artist_uri": "spotify:artist:2KsP6tYLJlTBvSUxnwlVWa",
-                    "track_name": "Cooler Than Me",
-                    "album_uri": "spotify:album:4LScr6kNKfExUuZeizmoDb",
-                    "duration_ms": 227840,
-                    "album_name": "Cooler Than Me EP"
-                },
-                {
-                    "pos": 42,
-                    "artist_name": "Flo Rida",
-                    "track_uri": "spotify:track:1NpW5kyvO4XrNJ3rnfcNy3",
-                    "artist_uri": "spotify:artist:0jnsk9HBra6NMjO2oANoPY",
-                    "track_name": "Wild Ones (feat. Sia)",
-                    "album_uri": "spotify:album:7eLwoxxWs6lfkVYJGkGNbk",
-                    "duration_ms": 232946,
-                    "album_name": "Wild Ones"
-                },
-                {
-                    "pos": 43,
-                    "artist_name": "Jason Derulo",
-                    "track_uri": "spotify:track:67T6l4q3zVjC5nZZPXByU8",
-                    "artist_uri": "spotify:artist:07YZf4WDAMNwqr4jfgOZ8y",
-                    "track_name": "Whatcha Say",
-                    "album_uri": "spotify:album:0aVJmVAeEx78nAA1rAKYf7",
-                    "duration_ms": 221253,
-                    "album_name": "Jason Derulo"
-                },
-                {
-                    "pos": 47,
-                    "artist_name": "Lil Mama",
-                    "track_uri": "spotify:track:1Y4ZdPOOgCUhBcKZOrUFiS",
-                    "artist_uri": "spotify:artist:5qK5bOC6wLtuLhG5KvU17c",
-                    "track_name": "Lip Gloss",
-                    "album_uri": "spotify:album:3vgVsm9GY3i39fZ7b1sqV5",
-                    "duration_ms": 219773,
-                    "album_name": "Lip Gloss"
-                }
-            ],
-            "num_edits": 51,
-            "duration_ms": 54229179,
-            "num_artists": 125
-        },
-        "options": {
-            "binary": {
-                "permutation": [
-                    0,
-                    6,
-                    1,
-                    2,
-                    9,
-                    3,
-                    5,
-                    8,
-                    4,
                     7
                 ],
                 "distance": 6
@@ -335,189 +146,948 @@
             "circle": {
                 "permutation": [
                     0,
-                    6,
-                    2,
-                    9,
-                    4,
-                    3,
-                    5,
                     8,
+                    2,
+                    6,
+                    7,
                     1,
-                    7
+                    4,
+                    5,
+                    9,
+                    3
                 ],
-                "distance": 50.10063743475468
+                "distance": 50.100637434754674
             },
             "tiv": {
                 "permutation": [
                     0,
-                    6,
+                    8,
                     2,
+                    3,
+                    6,
                     7,
                     1,
-                    9,
                     4,
-                    3,
                     5,
-                    8
+                    9
                 ],
-                "distance": 0.541104834155794
+                "distance": 0.5767323571675004
             },
             "ph": {
                 "permutation": [
                     0,
+                    6,
+                    4,
+                    2,
+                    5,
                     3,
                     1,
-                    4,
-                    7,
-                    5,
-                    6,
                     8,
-                    2,
+                    7,
                     9
                 ],
-                "distance": 1.783743886992552
+                "distance": 1.9585406376496952
             }
         }
     },
     {
         "uris": [
-            "spotify:track:2A6yzRGMgSQCUapR2ptm6A",
-            "spotify:track:2vwlzO0Qp8kfEtzTsCXfyE",
-            "spotify:track:01CnYyPXMFRzOFVQBU8WMb",
-            "spotify:track:4esOae7i4rqTbAu9o5Pxco",
-            "spotify:track:7aVsmN6J616ZFD5LRwNN0A",
-            "spotify:track:6GQuF9vzJAVs7fYN9ftBdP",
-            "spotify:track:5jE48hhRu8E6zBDPRSkEq7",
-            "spotify:track:0ZUo4YjG4saFnEJhdWp9Bt",
-            "spotify:track:2DpCdPMg1BADE4HDnxt3Rd",
-            "spotify:track:46LI9mnlQ8fJHH47ioBubg"
+            "spotify:track:3kdMzXOcrDIdSWLdONHNK5",
+            "spotify:track:45HAjqRWiNv6mMPw4NvZrU",
+            "spotify:track:5y1jgbDNgTfxoWXv3FhH2Q",
+            "spotify:track:2UZtI2HUyLRzqBjodvcUmY",
+            "spotify:track:1060gzllf4b0UETAXisR5l",
+            "spotify:track:0gnS1k4dyGPuD3TtHFaCD8",
+            "spotify:track:6rAXHPd18PZ6W8m9EectzH",
+            "spotify:track:6QgjcU0zLnzq5OrUoSZ3OK",
+            "spotify:track:6PtIXICwmoxCgLjw2zApDs",
+            "spotify:track:1wLQwg0mloy3yXjL0jPE0N"
         ],
         "playlist": {
-            "name": "Girl Songs",
+            "name": "Rock Hits",
             "collaborative": "false",
-            "pid": 425744,
-            "modified_at": 1508889600,
-            "num_tracks": 111,
-            "num_albums": 99,
-            "num_followers": 63,
+            "pid": 159077,
+            "modified_at": 1509408000,
+            "num_tracks": 56,
+            "num_albums": 54,
+            "num_followers": 22102,
             "tracks": [
                 {
-                    "pos": 1,
-                    "artist_name": "Cyndi Lauper",
-                    "track_uri": "spotify:track:2A6yzRGMgSQCUapR2ptm6A",
-                    "artist_uri": "spotify:artist:2BTZIqw0ntH9MvilQ3ewNY",
-                    "track_name": "True Colors",
-                    "album_uri": "spotify:album:31TRqoVBTQi0lzlPLtvINn",
-                    "duration_ms": 226066,
-                    "album_name": "True Colors"
+                    "pos": 0,
+                    "artist_name": "Foo Fighters",
+                    "track_uri": "spotify:track:3kdMzXOcrDIdSWLdONHNK5",
+                    "artist_uri": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+                    "track_name": "The Sky Is A Neighborhood",
+                    "album_uri": "spotify:album:6KMkuqIwKkwUhUYRPL6dUc",
+                    "duration_ms": 244573,
+                    "album_name": "Concrete and Gold"
                 },
                 {
                     "pos": 4,
-                    "artist_name": "Miley Cyrus",
-                    "track_uri": "spotify:track:2vwlzO0Qp8kfEtzTsCXfyE",
-                    "artist_uri": "spotify:artist:5YGY8feqx7naU7z4HrwZM6",
-                    "track_name": "Wrecking Ball",
-                    "album_uri": "spotify:album:3RDqXDc1bAETps54MSSOW0",
-                    "duration_ms": 221360,
-                    "album_name": "Bangerz (Deluxe Version)"
+                    "artist_name": "Gary Clark Jr.",
+                    "track_uri": "spotify:track:45HAjqRWiNv6mMPw4NvZrU",
+                    "artist_uri": "spotify:artist:01aC2ikO4Xgb2LUpf9JfKp",
+                    "track_name": "Come Together",
+                    "album_uri": "spotify:album:1FA0rfTpK5dost6Zk4pxjC",
+                    "duration_ms": 193714,
+                    "album_name": "Come Together"
                 },
                 {
                     "pos": 5,
-                    "artist_name": "Martina McBride",
-                    "track_uri": "spotify:track:01CnYyPXMFRzOFVQBU8WMb",
-                    "artist_uri": "spotify:artist:3P33qFNGBVXl86yQYWspFj",
-                    "track_name": "This One's for the Girls",
-                    "album_uri": "spotify:album:3xtQSAQgeAV6TcvzyF4iDd",
-                    "duration_ms": 243160,
-                    "album_name": "Martina"
+                    "artist_name": "Highly Suspect",
+                    "track_uri": "spotify:track:5y1jgbDNgTfxoWXv3FhH2Q",
+                    "artist_uri": "spotify:artist:2pqd3HsfsvcBGtHvPOg6eg",
+                    "track_name": "Little One",
+                    "album_uri": "spotify:album:3TC40H9dIJArFzy0rWnWCg",
+                    "duration_ms": 241533,
+                    "album_name": "The Boy Who Died Wolf"
                 },
                 {
-                    "pos": 6,
-                    "artist_name": "Alicia Keys",
-                    "track_uri": "spotify:track:4esOae7i4rqTbAu9o5Pxco",
-                    "artist_uri": "spotify:artist:3DiDSECUqqY1AuBP8qtaIa",
-                    "track_name": "Girl On Fire",
-                    "album_uri": "spotify:album:3zZSz5VOYSu0jE4MkPCOvN",
-                    "duration_ms": 224920,
-                    "album_name": "Girl On Fire"
+                    "pos": 8,
+                    "artist_name": "Theory of a Deadman",
+                    "track_uri": "spotify:track:2UZtI2HUyLRzqBjodvcUmY",
+                    "artist_uri": "spotify:artist:74eX4C98E4FCrAMl39qRsJ",
+                    "track_name": "Rx (Medicate)",
+                    "album_uri": "spotify:album:1P2L7DD1DCqb0VfpMyByLl",
+                    "duration_ms": 233173,
+                    "album_name": "Wake Up Call"
                 },
                 {
-                    "pos": 7,
-                    "artist_name": "Lesley Gore",
-                    "track_uri": "spotify:track:7aVsmN6J616ZFD5LRwNN0A",
-                    "artist_uri": "spotify:artist:08b2PA6eFyugsWAk41eQKZ",
-                    "track_name": "You Don't Own Me",
-                    "album_uri": "spotify:album:3nEraVjELn0z9cOSOLT1gz",
-                    "duration_ms": 153182,
-                    "album_name": "You Don't Own Me"
+                    "pos": 10,
+                    "artist_name": "Royal Blood",
+                    "track_uri": "spotify:track:1060gzllf4b0UETAXisR5l",
+                    "artist_uri": "spotify:artist:2S5hlvw4CMtMGswFtfdK15",
+                    "track_name": "Lights Out",
+                    "album_uri": "spotify:album:3Rz6kF8eGqrDOEteo5YsBj",
+                    "duration_ms": 236556,
+                    "album_name": "How Did We Get So Dark?"
                 },
                 {
-                    "pos": 9,
-                    "artist_name": "Beyonc\u00e9",
-                    "track_uri": "spotify:track:6GQuF9vzJAVs7fYN9ftBdP",
-                    "artist_uri": "spotify:artist:6vWDO969PvNqNYHIOW5v0m",
-                    "track_name": "Diva",
-                    "album_uri": "spotify:album:3ROfBX6lJLnCmaw1NrP5K9",
-                    "duration_ms": 200320,
-                    "album_name": "I AM...SASHA FIERCE - Platinum Edition"
+                    "pos": 11,
+                    "artist_name": "Kaleo",
+                    "track_uri": "spotify:track:0gnS1k4dyGPuD3TtHFaCD8",
+                    "artist_uri": "spotify:artist:7jdFEYD2LTYjfwxOdlVjmc",
+                    "track_name": "No Good",
+                    "album_uri": "spotify:album:3K6FbYh9Hlet8XXryMuqPc",
+                    "duration_ms": 235146,
+                    "album_name": "VINYL: Music From The HBO\u00ae Original Series - Vol. 1"
                 },
                 {
                     "pos": 12,
-                    "artist_name": "Meghan Trainor",
-                    "track_uri": "spotify:track:5jE48hhRu8E6zBDPRSkEq7",
-                    "artist_uri": "spotify:artist:6JL8zeS1NmiOftqZTRgdTz",
-                    "track_name": "All About That Bass",
-                    "album_uri": "spotify:album:5W98Ab4VvQEuFEE4TIe5fE",
-                    "duration_ms": 187920,
-                    "album_name": "Title"
+                    "artist_name": "Nothing But Thieves",
+                    "track_uri": "spotify:track:6rAXHPd18PZ6W8m9EectzH",
+                    "artist_uri": "spotify:artist:1kDGbuxWknIKx4FlgWxiSp",
+                    "track_name": "Sorry",
+                    "album_uri": "spotify:album:0r7wrRVD77lNrD9t2QgZrq",
+                    "duration_ms": 214706,
+                    "album_name": "Broken Machine (Deluxe)"
                 },
                 {
-                    "pos": 13,
-                    "artist_name": "Carrie Underwood",
-                    "track_uri": "spotify:track:0ZUo4YjG4saFnEJhdWp9Bt",
-                    "artist_uri": "spotify:artist:4xFUf1FHVy696Q1JQZMTRj",
-                    "track_name": "Before He Cheats",
-                    "album_uri": "spotify:album:0kys2jaKAiDPfNBd4z7LAg",
-                    "duration_ms": 199946,
-                    "album_name": "Some Hearts"
-                },
-                {
-                    "pos": 14,
-                    "artist_name": "Daya",
-                    "track_uri": "spotify:track:2DpCdPMg1BADE4HDnxt3Rd",
-                    "artist_uri": "spotify:artist:6Dd3NScHWwnW6obMFbl1BH",
-                    "track_name": "Sit Still, Look Pretty",
-                    "album_uri": "spotify:album:2cE2eOy7alOZHpuelJEV8Q",
-                    "duration_ms": 202226,
-                    "album_name": "Sit Still, Look Pretty"
+                    "pos": 15,
+                    "artist_name": "Portugal. The Man",
+                    "track_uri": "spotify:track:6QgjcU0zLnzq5OrUoSZ3OK",
+                    "artist_uri": "spotify:artist:4kI8Ie27vjvonwaB2ePh8T",
+                    "track_name": "Feel It Still",
+                    "album_uri": "spotify:album:4VzzEviJGYUtAeSsJlI9QB",
+                    "duration_ms": 163253,
+                    "album_name": "Woodstock"
                 },
                 {
                     "pos": 16,
-                    "artist_name": "Alison Krauss & Union Station",
-                    "track_uri": "spotify:track:46LI9mnlQ8fJHH47ioBubg",
-                    "artist_uri": "spotify:artist:0OTnx2X2FDXeewcm72lavT",
-                    "track_name": "When You Say Nothing At All",
-                    "album_uri": "spotify:album:2GPq8BXUNLgiDb191QM7j8",
-                    "duration_ms": 261120,
-                    "album_name": "A Tribute Album"
+                    "artist_name": "Ron Gallo",
+                    "track_uri": "spotify:track:6PtIXICwmoxCgLjw2zApDs",
+                    "artist_uri": "spotify:artist:4rfE3kN2zKNC9L9tt3iVOg",
+                    "track_name": "Young Lady, You're Scaring Me",
+                    "album_uri": "spotify:album:6w5N3oL83KiitLdFcCrzTj",
+                    "duration_ms": 220538,
+                    "album_name": "HEAVY META"
+                },
+                {
+                    "pos": 17,
+                    "artist_name": "Foo Fighters",
+                    "track_uri": "spotify:track:1wLQwg0mloy3yXjL0jPE0N",
+                    "artist_uri": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+                    "track_name": "Run",
+                    "album_uri": "spotify:album:6KMkuqIwKkwUhUYRPL6dUc",
+                    "duration_ms": 323373,
+                    "album_name": "Concrete and Gold"
                 }
             ],
-            "num_edits": 21,
-            "duration_ms": 25724672,
-            "num_artists": 78,
-            "description": "Positive, Girl Power sing-a-long songs, power ballads, women empowerment, guilty pleasure dance songs, no boys allowed except Sam Smith, nothing explicit."
+            "num_edits": 6,
+            "duration_ms": 12528923,
+            "num_artists": 54
+        },
+        "options": {
+            "binary": {
+                "permutation": [
+                    0,
+                    5,
+                    8,
+                    1,
+                    9,
+                    2,
+                    3,
+                    6,
+                    7,
+                    4
+                ],
+                "distance": 4
+            },
+            "circle": {
+                "permutation": [
+                    0,
+                    5,
+                    8,
+                    2,
+                    4,
+                    1,
+                    9,
+                    7,
+                    6,
+                    3
+                ],
+                "distance": 45.01382410441717
+            },
+            "tiv": {
+                "permutation": [
+                    0,
+                    8,
+                    9,
+                    1,
+                    4,
+                    2,
+                    5,
+                    7,
+                    6,
+                    3
+                ],
+                "distance": 0.46522336934199965
+            },
+            "ph": {
+                "permutation": [
+                    0,
+                    2,
+                    7,
+                    4,
+                    5,
+                    1,
+                    6,
+                    9,
+                    3,
+                    8
+                ],
+                "distance": 2.009301810176878
+            }
+        }
+    },
+    {
+        "uris": [
+            "spotify:track:5alANmeVFjYGnf0KxeQJ1p",
+            "spotify:track:6A3Q8BVAAI2PW1s6MX4ZGF",
+            "spotify:track:2EDF3x6YzKBmjXhtIdQbaL",
+            "spotify:track:4JVpdXdQYXkKNNIdrny9m2",
+            "spotify:track:0jakfggA0WkYpkAXni6pts",
+            "spotify:track:0CST5bxjfQseYLcG8LUmV4",
+            "spotify:track:3cvyq4hRfs8uiLSbQOmvec",
+            "spotify:track:5QmHSW3ERBIW0TdDCQKyzF",
+            "spotify:track:5I3jKRlR8WS0xYYamnAhpG",
+            "spotify:track:7bZS37zs7WNnQ6me2ooOri"
+        ],
+        "playlist": {
+            "name": "Hotel Costes",
+            "collaborative": "false",
+            "pid": 360509,
+            "modified_at": 1412380800,
+            "num_tracks": 203,
+            "num_albums": 67,
+            "num_followers": 8596,
+            "tracks": [
+                {
+                    "pos": 0,
+                    "artist_name": "Second Date",
+                    "track_uri": "spotify:track:5alANmeVFjYGnf0KxeQJ1p",
+                    "artist_uri": "spotify:artist:2Scvo6XhOzunbT9CNWDrJY",
+                    "track_name": "Young, beautiful etc.",
+                    "album_uri": "spotify:album:5KqxZji4lOSNZ4c1DGLxVE",
+                    "duration_ms": 235173,
+                    "album_name": "H\u00f4tel Costes 15"
+                },
+                {
+                    "pos": 1,
+                    "artist_name": "Vanessa Da Mata",
+                    "track_uri": "spotify:track:6A3Q8BVAAI2PW1s6MX4ZGF",
+                    "artist_uri": "spotify:artist:57pVvBwa3ZCR9LsVlkLXj7",
+                    "track_name": "Boa Sorte / Good Luck",
+                    "album_uri": "spotify:album:0deZTBaASnRuOxp2IcnTBN",
+                    "duration_ms": 235600,
+                    "album_name": "Sim"
+                },
+                {
+                    "pos": 3,
+                    "artist_name": "Slackwax",
+                    "track_uri": "spotify:track:2EDF3x6YzKBmjXhtIdQbaL",
+                    "artist_uri": "spotify:artist:1LfcJTOmVKxmvsdk1P00D1",
+                    "track_name": "Close to my fire",
+                    "album_uri": "spotify:album:5KqxZji4lOSNZ4c1DGLxVE",
+                    "duration_ms": 227800,
+                    "album_name": "H\u00f4tel Costes 15"
+                },
+                {
+                    "pos": 4,
+                    "artist_name": "Intergalactic Lovers",
+                    "track_uri": "spotify:track:4JVpdXdQYXkKNNIdrny9m2",
+                    "artist_uri": "spotify:artist:02WQ3uYpJNgznKVcqWCc6I",
+                    "track_name": "Fade Away",
+                    "album_uri": "spotify:album:3dY4C4H8iSVg6M4nHelgVU",
+                    "duration_ms": 185053,
+                    "album_name": "Greetings & Salutations"
+                },
+                {
+                    "pos": 5,
+                    "artist_name": "Parov Stelar",
+                    "track_uri": "spotify:track:0jakfggA0WkYpkAXni6pts",
+                    "artist_uri": "spotify:artist:65EXuYHVoehCKqp0kOS6px",
+                    "track_name": "KissKiss",
+                    "album_uri": "spotify:album:5ulCJnCYTOOtXu1uuEg5Md",
+                    "duration_ms": 281546,
+                    "album_name": "H\u00f4tel Costes 8 by St\u00e9phane Pompougnac"
+                },
+                {
+                    "pos": 7,
+                    "artist_name": "DJ Cam",
+                    "track_uri": "spotify:track:0CST5bxjfQseYLcG8LUmV4",
+                    "artist_uri": "spotify:artist:1hwAhXzyuEUjug2pyNVSvg",
+                    "track_name": "Swim - Blackjoy Version",
+                    "album_uri": "spotify:album:5KqxZji4lOSNZ4c1DGLxVE",
+                    "duration_ms": 213293,
+                    "album_name": "H\u00f4tel Costes 15"
+                },
+                {
+                    "pos": 8,
+                    "artist_name": "Kid Loco",
+                    "track_uri": "spotify:track:3cvyq4hRfs8uiLSbQOmvec",
+                    "artist_uri": "spotify:artist:1ViF5mdcW7pEn7md71YjOL",
+                    "track_name": "The Passenger",
+                    "album_uri": "spotify:album:5KqxZji4lOSNZ4c1DGLxVE",
+                    "duration_ms": 280226,
+                    "album_name": "H\u00f4tel Costes 15"
+                },
+                {
+                    "pos": 10,
+                    "artist_name": "Maceo Plex",
+                    "track_uri": "spotify:track:5QmHSW3ERBIW0TdDCQKyzF",
+                    "artist_uri": "spotify:artist:3TXQ1ddouwQAI78hV4hXDj",
+                    "track_name": "Gravy Train - Nicolas Jaar Remix",
+                    "album_uri": "spotify:album:5KqxZji4lOSNZ4c1DGLxVE",
+                    "duration_ms": 333240,
+                    "album_name": "H\u00f4tel Costes 15"
+                },
+                {
+                    "pos": 11,
+                    "artist_name": "Gotan Project",
+                    "track_uri": "spotify:track:5I3jKRlR8WS0xYYamnAhpG",
+                    "artist_uri": "spotify:artist:44ejFPE33H5aOInxNV2BFP",
+                    "track_name": "Diferente",
+                    "album_uri": "spotify:album:3l1nGJTNNjFwQ1cADEGHaw",
+                    "duration_ms": 279879,
+                    "album_name": "H\u00f4tel Costes 9"
+                },
+                {
+                    "pos": 12,
+                    "artist_name": "J\u00fcrgen Paape",
+                    "track_uri": "spotify:track:7bZS37zs7WNnQ6me2ooOri",
+                    "artist_uri": "spotify:artist:51qSeH9HimuYMMQ7qbWGrk",
+                    "track_name": "So Weit Wie Noch Nie",
+                    "album_uri": "spotify:album:5KqxZji4lOSNZ4c1DGLxVE",
+                    "duration_ms": 261133,
+                    "album_name": "H\u00f4tel Costes 15"
+                }
+            ],
+            "num_edits": 2,
+            "duration_ms": 57986585,
+            "num_artists": 172
         },
         "options": {
             "binary": {
                 "permutation": [
                     0,
                     1,
-                    9,
                     2,
-                    4,
                     3,
+                    4,
+                    9,
                     8,
                     6,
+                    7,
+                    5
+                ],
+                "distance": 5
+            },
+            "circle": {
+                "permutation": [
+                    0,
+                    6,
+                    7,
+                    8,
+                    2,
+                    3,
+                    4,
+                    9,
+                    5,
+                    1
+                ],
+                "distance": 45.696768742473864
+            },
+            "tiv": {
+                "permutation": [
+                    0,
+                    2,
+                    6,
+                    7,
+                    8,
+                    5,
+                    1,
+                    9,
+                    3,
+                    4
+                ],
+                "distance": 0.5777393398706091
+            },
+            "ph": {
+                "permutation": [
+                    0,
+                    5,
+                    3,
+                    8,
+                    4,
+                    6,
+                    9,
+                    2,
+                    1,
+                    7
+                ],
+                "distance": 2.012068778282787
+            }
+        }
+    },
+    {
+        "uris": [
+            "spotify:track:2aoo2jlRnM3A0NyLQqMN2f",
+            "spotify:track:0wJoRiX5K5BxlqZTolB2LD",
+            "spotify:track:574y1r7o2tRA009FW0LE7v",
+            "spotify:track:2ctvdKmETyOzPb2GiJJT53",
+            "spotify:track:73OIUNKRi2y24Cu9cOLrzM",
+            "spotify:track:3TO7bbrUKrOSPGRTB5MeCz",
+            "spotify:track:2TjdnqlpwOjhijHCwHCP2d",
+            "spotify:track:0vFOzaXqZHahrZp6enQwQb",
+            "spotify:track:1TKTiKp3zbNgrBH2IwSwIx",
+            "spotify:track:6FBPOJLxUZEair6x4kLDhf"
+        ],
+        "playlist": {
+            "name": "Stoner rock",
+            "collaborative": "false",
+            "pid": 89554,
+            "modified_at": 1485475200,
+            "num_tracks": 224,
+            "num_albums": 143,
+            "num_followers": 7973,
+            "tracks": [
+                {
+                    "pos": 0,
+                    "artist_name": "Jimi Hendrix",
+                    "track_uri": "spotify:track:2aoo2jlRnM3A0NyLQqMN2f",
+                    "artist_uri": "spotify:artist:776Uo845nYHJpNaStv1Ds4",
+                    "track_name": "All Along the Watchtower",
+                    "album_uri": "spotify:album:5z090LQztiqh13wYspQvKQ",
+                    "duration_ms": 240800,
+                    "album_name": "Electric Ladyland"
+                },
+                {
+                    "pos": 1,
+                    "artist_name": "Jimi Hendrix",
+                    "track_uri": "spotify:track:0wJoRiX5K5BxlqZTolB2LD",
+                    "artist_uri": "spotify:artist:776Uo845nYHJpNaStv1Ds4",
+                    "track_name": "Purple Haze",
+                    "album_uri": "spotify:album:7rSZXXHHvIhF4yUFdaOCy9",
+                    "duration_ms": 170813,
+                    "album_name": "Are You Experienced"
+                },
+                {
+                    "pos": 2,
+                    "artist_name": "Pink Floyd",
+                    "track_uri": "spotify:track:574y1r7o2tRA009FW0LE7v",
+                    "artist_uri": "spotify:artist:0k17h0D3J5VfsdmQ1iZtE9",
+                    "track_name": "Speak to Me",
+                    "album_uri": "spotify:album:4LH4d3cOWNNsVw41Gqt2kv",
+                    "duration_ms": 65314,
+                    "album_name": "The Dark Side of the Moon"
+                },
+                {
+                    "pos": 3,
+                    "artist_name": "Pink Floyd",
+                    "track_uri": "spotify:track:2ctvdKmETyOzPb2GiJJT53",
+                    "artist_uri": "spotify:artist:0k17h0D3J5VfsdmQ1iZtE9",
+                    "track_name": "Breathe (In the Air)",
+                    "album_uri": "spotify:album:4LH4d3cOWNNsVw41Gqt2kv",
+                    "duration_ms": 169534,
+                    "album_name": "The Dark Side of the Moon"
+                },
+                {
+                    "pos": 4,
+                    "artist_name": "Pink Floyd",
+                    "track_uri": "spotify:track:73OIUNKRi2y24Cu9cOLrzM",
+                    "artist_uri": "spotify:artist:0k17h0D3J5VfsdmQ1iZtE9",
+                    "track_name": "On the Run",
+                    "album_uri": "spotify:album:4LH4d3cOWNNsVw41Gqt2kv",
+                    "duration_ms": 225384,
+                    "album_name": "The Dark Side of the Moon"
+                },
+                {
+                    "pos": 5,
+                    "artist_name": "Pink Floyd",
+                    "track_uri": "spotify:track:3TO7bbrUKrOSPGRTB5MeCz",
+                    "artist_uri": "spotify:artist:0k17h0D3J5VfsdmQ1iZtE9",
+                    "track_name": "Time",
+                    "album_uri": "spotify:album:4LH4d3cOWNNsVw41Gqt2kv",
+                    "duration_ms": 413947,
+                    "album_name": "The Dark Side of the Moon"
+                },
+                {
+                    "pos": 6,
+                    "artist_name": "Pink Floyd",
+                    "track_uri": "spotify:track:2TjdnqlpwOjhijHCwHCP2d",
+                    "artist_uri": "spotify:artist:0k17h0D3J5VfsdmQ1iZtE9",
+                    "track_name": "The Great Gig in the Sky",
+                    "album_uri": "spotify:album:4LH4d3cOWNNsVw41Gqt2kv",
+                    "duration_ms": 283872,
+                    "album_name": "The Dark Side of the Moon"
+                },
+                {
+                    "pos": 7,
+                    "artist_name": "Pink Floyd",
+                    "track_uri": "spotify:track:0vFOzaXqZHahrZp6enQwQb",
+                    "artist_uri": "spotify:artist:0k17h0D3J5VfsdmQ1iZtE9",
+                    "track_name": "Money",
+                    "album_uri": "spotify:album:4LH4d3cOWNNsVw41Gqt2kv",
+                    "duration_ms": 382834,
+                    "album_name": "The Dark Side of the Moon"
+                },
+                {
+                    "pos": 8,
+                    "artist_name": "Pink Floyd",
+                    "track_uri": "spotify:track:1TKTiKp3zbNgrBH2IwSwIx",
+                    "artist_uri": "spotify:artist:0k17h0D3J5VfsdmQ1iZtE9",
+                    "track_name": "Us and Them",
+                    "album_uri": "spotify:album:4LH4d3cOWNNsVw41Gqt2kv",
+                    "duration_ms": 469224,
+                    "album_name": "The Dark Side of the Moon"
+                },
+                {
+                    "pos": 9,
+                    "artist_name": "Pink Floyd",
+                    "track_uri": "spotify:track:6FBPOJLxUZEair6x4kLDhf",
+                    "artist_uri": "spotify:artist:0k17h0D3J5VfsdmQ1iZtE9",
+                    "track_name": "Any Colour You Like",
+                    "album_uri": "spotify:album:4LH4d3cOWNNsVw41Gqt2kv",
+                    "duration_ms": 206429,
+                    "album_name": "The Dark Side of the Moon"
+                }
+            ],
+            "num_edits": 56,
+            "duration_ms": 60694653,
+            "num_artists": 83
+        },
+        "options": {
+            "binary": {
+                "permutation": [
+                    0,
+                    6,
+                    9,
+                    3,
+                    1,
+                    4,
+                    8,
+                    7,
+                    5,
+                    2
+                ],
+                "distance": 2
+            },
+            "circle": {
+                "permutation": [
+                    0,
+                    6,
+                    9,
+                    3,
+                    4,
+                    1,
+                    8,
+                    7,
+                    5,
+                    2
+                ],
+                "distance": 38.35820131603808
+            },
+            "tiv": {
+                "permutation": [
+                    0,
+                    6,
+                    9,
+                    8,
+                    3,
+                    1,
+                    4,
+                    2,
+                    7,
+                    5
+                ],
+                "distance": 0.4847149553926057
+            },
+            "ph": {
+                "permutation": [
+                    0,
+                    3,
+                    4,
+                    7,
+                    6,
+                    5,
+                    9,
+                    8,
+                    2,
+                    1
+                ],
+                "distance": 2.323890380242885
+            }
+        }
+    },
+    {
+        "uris": [
+            "spotify:track:7AzunAhx3JfoHxYS5N6KVx",
+            "spotify:track:1tPWRG9wS6sn5k0wjqCmRn",
+            "spotify:track:213yvmgTvWQxcOTvnm9rzg",
+            "spotify:track:4cb0chqcLcXdMrm1hMLoeK",
+            "spotify:track:24YCerV2ylANHz7uiCzX5M",
+            "spotify:track:1C3GfIyZjaX654Tva4QNtJ",
+            "spotify:track:3BVt1MH9KaZjQw4W58SUTV",
+            "spotify:track:2JaaUoHRCwy0ohnYebvbex",
+            "spotify:track:7GjNPaxtLRJxPy1U6bLYrK",
+            "spotify:track:0xiOOMVxZ30xzwEkUHKnib"
+        ],
+        "playlist": {
+            "name": "J cole",
+            "collaborative": "false",
+            "pid": 147486,
+            "modified_at": 1491523200,
+            "num_tracks": 139,
+            "num_albums": 55,
+            "num_followers": 7912,
+            "tracks": [
+                {
+                    "pos": 56,
+                    "artist_name": "Justin Timberlake",
+                    "track_uri": "spotify:track:7AzunAhx3JfoHxYS5N6KVx",
+                    "artist_uri": "spotify:artist:31TPClRtHm23RisEBtV3X7",
+                    "track_name": "TKO - Black Friday Remix",
+                    "album_uri": "spotify:album:46GFWEybCT9t4ey4s9sfHt",
+                    "duration_ms": 272706,
+                    "album_name": "TKO"
+                },
+                {
+                    "pos": 57,
+                    "artist_name": "Treasure Davis",
+                    "track_uri": "spotify:track:1tPWRG9wS6sn5k0wjqCmRn",
+                    "artist_uri": "spotify:artist:6S7lMwgafEK384nEx70j5E",
+                    "track_name": "May the Bitter Man Win",
+                    "album_uri": "spotify:album:3GiCJTqbgtSwnhy8lnfKdv",
+                    "duration_ms": 247826,
+                    "album_name": "May the Bitter Man Win"
+                },
+                {
+                    "pos": 77,
+                    "artist_name": "Voli",
+                    "track_uri": "spotify:track:213yvmgTvWQxcOTvnm9rzg",
+                    "artist_uri": "spotify:artist:19vvefoXzxLcivAk5dmLzq",
+                    "track_name": "Pity (feat. J Cole)",
+                    "album_uri": "spotify:album:1tSfbSpCVJuvBsF8mx9jDl",
+                    "duration_ms": 286560,
+                    "album_name": "In the Meanwhile"
+                },
+                {
+                    "pos": 78,
+                    "artist_name": "Yo Gotti",
+                    "track_uri": "spotify:track:4cb0chqcLcXdMrm1hMLoeK",
+                    "artist_uri": "spotify:artist:6Ha4aES39QiVjR0L2lwuwq",
+                    "track_name": "Cold Blood",
+                    "album_uri": "spotify:album:57gO7DyFyvl59GdBHtjI74",
+                    "duration_ms": 311480,
+                    "album_name": "I Am"
+                },
+                {
+                    "pos": 81,
+                    "artist_name": "Wale",
+                    "track_uri": "spotify:track:24YCerV2ylANHz7uiCzX5M",
+                    "artist_uri": "spotify:artist:67nwj3Y5sZQLl72VNUHEYE",
+                    "track_name": "Black Grammys [feat. Meek Mill, Rockie Fresh & J. Cole]",
+                    "album_uri": "spotify:album:1zq8qk416GadYJPtpkvhAK",
+                    "duration_ms": 342493,
+                    "album_name": "MMG Presents: Self Made, Vol. 3"
+                },
+                {
+                    "pos": 82,
+                    "artist_name": "Elle Varner",
+                    "track_uri": "spotify:track:1C3GfIyZjaX654Tva4QNtJ",
+                    "artist_uri": "spotify:artist:7zmk5lkmCMVvfvwF3H8FWC",
+                    "track_name": "Only Wanna Give It To You",
+                    "album_uri": "spotify:album:68LPoE2EfeEnWZGMAOB3Cu",
+                    "duration_ms": 237560,
+                    "album_name": "Perfectly Imperfect"
+                },
+                {
+                    "pos": 83,
+                    "artist_name": "Fashawn",
+                    "track_uri": "spotify:track:3BVt1MH9KaZjQw4W58SUTV",
+                    "artist_uri": "spotify:artist:6sDyTDjzGxcvyhLn5x9RyY",
+                    "track_name": "Relaxation",
+                    "album_uri": "spotify:album:50cKcSmA9WNslW8pJQAgWi",
+                    "duration_ms": 160177,
+                    "album_name": "Higher Learning 2 (Deluxe Edition)"
+                },
+                {
+                    "pos": 84,
+                    "artist_name": "Trae Tha Truth",
+                    "track_uri": "spotify:track:2JaaUoHRCwy0ohnYebvbex",
+                    "artist_uri": "spotify:artist:49vCIUW46QY3L5vo1xVFoy",
+                    "track_name": "Roll Call",
+                    "album_uri": "spotify:album:6EXkozC5UJ2fS5IDgvfiD5",
+                    "duration_ms": 228573,
+                    "album_name": "Welcome 2 the Streets"
+                },
+                {
+                    "pos": 87,
+                    "artist_name": "Beyonc\u00e9",
+                    "track_uri": "spotify:track:7GjNPaxtLRJxPy1U6bLYrK",
+                    "artist_uri": "spotify:artist:6vWDO969PvNqNYHIOW5v0m",
+                    "track_name": "Party",
+                    "album_uri": "spotify:album:73wpHTLtL517aZQleP2zIi",
+                    "duration_ms": 219826,
+                    "album_name": "Party"
+                },
+                {
+                    "pos": 88,
+                    "artist_name": "Sean Garrett",
+                    "track_uri": "spotify:track:0xiOOMVxZ30xzwEkUHKnib",
+                    "artist_uri": "spotify:artist:4aWpJudn4ljEWahx6cPEGu",
+                    "track_name": "Feel Love - feat. J.Cole - Explicit Version",
+                    "album_uri": "spotify:album:3SNBV7raJJTEYGorcKGmwp",
+                    "duration_ms": 243266,
+                    "album_name": "Feel Love"
+                }
+            ],
+            "num_edits": 25,
+            "duration_ms": 34552447,
+            "num_artists": 36
+        },
+        "options": {
+            "binary": {
+                "permutation": [
+                    0,
+                    1,
+                    3,
+                    2,
+                    9,
+                    4,
+                    8,
+                    5,
+                    6,
+                    7
+                ],
+                "distance": 3
+            },
+            "circle": {
+                "permutation": [
+                    0,
+                    2,
+                    9,
+                    8,
+                    4,
+                    5,
+                    7,
+                    6,
+                    1,
+                    3
+                ],
+                "distance": 38.383053369758734
+            },
+            "tiv": {
+                "permutation": [
+                    0,
+                    7,
+                    3,
+                    1,
+                    6,
+                    5,
+                    4,
+                    8,
+                    2,
+                    9
+                ],
+                "distance": 0.38806262034684835
+            },
+            "ph": {
+                "permutation": [
+                    0,
+                    5,
+                    8,
+                    1,
+                    4,
+                    3,
+                    2,
+                    7,
+                    9,
+                    6
+                ],
+                "distance": 2.1543357071463887
+            }
+        }
+    },
+    {
+        "uris": [
+            "spotify:track:3Jl5GohfNwozDmpzmQBLDI",
+            "spotify:track:4bHsxqR3GMrXTxEPLuK5ue",
+            "spotify:track:1Y373MqadDRtclJNdnUXVc",
+            "spotify:track:2E7W1X4maFFcjHrVrFA7Vs",
+            "spotify:track:0enPNaMvwhom7Kvuugmmx2",
+            "spotify:track:5axOkQnmQmwtjr4bv1Xt7i",
+            "spotify:track:0qgrrDnUUhyxpxbBznUnzg",
+            "spotify:track:1kOS0GILzegjOlhhz0D31y",
+            "spotify:track:2RaA6kIcvomt77qlIgGhCT",
+            "spotify:track:3VPcxdwwo9TcjAOYZa5ZrP"
+        ],
+        "playlist": {
+            "name": "classic rock",
+            "collaborative": "false",
+            "pid": 739360,
+            "modified_at": 1487116800,
+            "num_tracks": 211,
+            "num_albums": 163,
+            "num_followers": 5164,
+            "tracks": [
+                {
+                    "pos": 3,
+                    "artist_name": "Black Sabbath",
+                    "track_uri": "spotify:track:3Jl5GohfNwozDmpzmQBLDI",
+                    "artist_uri": "spotify:artist:5M52tdBnJaKSvOpJGz8mfZ",
+                    "track_name": "Heaven and Hell - Remastered Version",
+                    "album_uri": "spotify:album:1Wk2g7TV0adbUZ53ruvIdL",
+                    "duration_ms": 419933,
+                    "album_name": "Heaven and Hell"
+                },
+                {
+                    "pos": 5,
+                    "artist_name": "Journey",
+                    "track_uri": "spotify:track:4bHsxqR3GMrXTxEPLuK5ue",
+                    "artist_uri": "spotify:artist:0rvjqX7ttXeg3mTy8Xscbt",
+                    "track_name": "Don't Stop Believin'",
+                    "album_uri": "spotify:album:43wpzak9OmQfrjyksuGwp0",
+                    "duration_ms": 250986,
+                    "album_name": "Escape"
+                },
+                {
+                    "pos": 12,
+                    "artist_name": "Black Sabbath",
+                    "track_uri": "spotify:track:1Y373MqadDRtclJNdnUXVc",
+                    "artist_uri": "spotify:artist:5M52tdBnJaKSvOpJGz8mfZ",
+                    "track_name": "Paranoid - Remastered Version",
+                    "album_uri": "spotify:album:6r7LZXAVueS5DqdrvXJJK7",
+                    "duration_ms": 168405,
+                    "album_name": "Paranoid"
+                },
+                {
+                    "pos": 14,
+                    "artist_name": "Ozzy Osbourne",
+                    "track_uri": "spotify:track:2E7W1X4maFFcjHrVrFA7Vs",
+                    "artist_uri": "spotify:artist:6ZLTlhejhndI4Rh53vYhrY",
+                    "track_name": "Bark at the Moon",
+                    "album_uri": "spotify:album:537qKeG5gbEvKJpQ4Qmszn",
+                    "duration_ms": 257120,
+                    "album_name": "Bark At The Moon (Bonus Track Version)"
+                },
+                {
+                    "pos": 17,
+                    "artist_name": "Kansas",
+                    "track_uri": "spotify:track:0enPNaMvwhom7Kvuugmmx2",
+                    "artist_uri": "spotify:artist:2hl0xAkS2AIRAu23TVMBG1",
+                    "track_name": "The Wall",
+                    "album_uri": "spotify:album:7MejfRSNnrpcLZIxkeZDqR",
+                    "duration_ms": 287933,
+                    "album_name": "Leftoverture"
+                },
+                {
+                    "pos": 22,
+                    "artist_name": "Ozzy Osbourne",
+                    "track_uri": "spotify:track:5axOkQnmQmwtjr4bv1Xt7i",
+                    "artist_uri": "spotify:artist:6ZLTlhejhndI4Rh53vYhrY",
+                    "track_name": "I Don't Wanna Stop",
+                    "album_uri": "spotify:album:6wiS0vTk9GfsiUKJEOav8Z",
+                    "duration_ms": 239826,
+                    "album_name": "Black Rain (Bonus Track Version)"
+                },
+                {
+                    "pos": 24,
+                    "artist_name": "Skid Row",
+                    "track_uri": "spotify:track:0qgrrDnUUhyxpxbBznUnzg",
+                    "artist_uri": "spotify:artist:4opTS86dN9uO313J9CE8xg",
+                    "track_name": "18 And Life",
+                    "album_uri": "spotify:album:0kSTuMp9GpX9pJR45Bksgi",
+                    "duration_ms": 231133,
+                    "album_name": "Skid Row"
+                },
+                {
+                    "pos": 26,
+                    "artist_name": "Ozzy Osbourne",
+                    "track_uri": "spotify:track:1kOS0GILzegjOlhhz0D31y",
+                    "artist_uri": "spotify:artist:6ZLTlhejhndI4Rh53vYhrY",
+                    "track_name": "Can You Hear Them?",
+                    "album_uri": "spotify:album:6olpeE5qTK6hkzN8PhwEBM",
+                    "duration_ms": 299573,
+                    "album_name": "Down To Earth"
+                },
+                {
+                    "pos": 28,
+                    "artist_name": "Judas Priest",
+                    "track_uri": "spotify:track:2RaA6kIcvomt77qlIgGhCT",
+                    "artist_uri": "spotify:artist:2tRsMl4eGxwoNabM08Dm4I",
+                    "track_name": "Breaking the Law",
+                    "album_uri": "spotify:album:5bqtZRbUZUxUps8mrO9tGY",
+                    "duration_ms": 153840,
+                    "album_name": "British Steel"
+                },
+                {
+                    "pos": 29,
+                    "artist_name": "Ozzy Osbourne",
+                    "track_uri": "spotify:track:3VPcxdwwo9TcjAOYZa5ZrP",
+                    "artist_uri": "spotify:artist:6ZLTlhejhndI4Rh53vYhrY",
+                    "track_name": "Flying High Again",
+                    "album_uri": "spotify:album:4xiRrFE0Gq4Si9mAfPB3hZ",
+                    "duration_ms": 284106,
+                    "album_name": "Diary Of A Madman"
+                }
+            ],
+            "num_edits": 90,
+            "duration_ms": 62597751,
+            "num_artists": 85
+        },
+        "options": {
+            "binary": {
+                "permutation": [
+                    0,
+                    4,
+                    9,
+                    1,
+                    6,
+                    2,
+                    3,
+                    8,
                     7,
                     5
                 ],
@@ -526,452 +1096,653 @@
             "circle": {
                 "permutation": [
                     0,
-                    1,
-                    9,
-                    2,
                     4,
-                    5,
-                    7,
-                    3,
+                    9,
+                    1,
                     6,
-                    8
+                    7,
+                    8,
+                    2,
+                    3,
+                    5
                 ],
-                "distance": 41.42405337051431
+                "distance": 40.93139563657659
             },
             "tiv": {
                 "permutation": [
                     0,
-                    8,
-                    6,
-                    3,
-                    7,
-                    5,
                     4,
-                    2,
                     9,
-                    1
+                    6,
+                    1,
+                    7,
+                    2,
+                    8,
+                    3,
+                    5
                 ],
-                "distance": 0.607700029221216
+                "distance": 0.43218306105993254
             },
             "ph": {
                 "permutation": [
                     0,
+                    1,
+                    5,
+                    6,
                     4,
                     8,
-                    5,
-                    1,
-                    3,
                     9,
-                    6,
+                    7,
                     2,
-                    7
+                    3
                 ],
-                "distance": 1.9378559926823653
+                "distance": 1.9763721266037084
             }
         }
     },
     {
         "uris": [
-            "spotify:track:2RaN7kGPxuT3wvpdw9dyND",
-            "spotify:track:1Q02TxUD4iUeqtkRSXBxrs",
-            "spotify:track:3W6UA36h0zahjxU709wLSI",
-            "spotify:track:7hDoOGJLhrW1JtuJHg0YSd",
-            "spotify:track:0CIvOZBEQmVtePr3dHZMPO",
-            "spotify:track:1lB6TCFlx4f50wdetOuGcT",
-            "spotify:track:0zS5yED1tcpP5gXTTj0IL0",
-            "spotify:track:4y5yv6CQuJLgPMztYpwpMV",
-            "spotify:track:6GETCaMrDCu3uFe2TMkyGA",
-            "spotify:track:1k1Bqnv2R0uJXQN4u6LKYt"
+            "spotify:track:0jSMveIWvnhDIvzqN74Uc7",
+            "spotify:track:4MeDnO5yA2Zi6IMlVApRci",
+            "spotify:track:05Sgj1Hx03ZXc57gsV1kfX",
+            "spotify:track:6o3s08kk2fQI37vxGZDrJ1",
+            "spotify:track:1oQZk2bKBLgP1cbuFKvjkq",
+            "spotify:track:7Lf7oSEVdzZqTA0kEDSlS5",
+            "spotify:track:7H6ev70Weq6DdpZyyTmUXk",
+            "spotify:track:0BCPKOYdS2jbQ8iyB56Zns",
+            "spotify:track:1sxUaLi0G2vB7dl4ogtCxH",
+            "spotify:track:2hKdd3qO7cWr2Jo0Bcs0MA"
         ],
         "playlist": {
-            "name": "Steely Dan ",
+            "name": "Throwback Playlist",
             "collaborative": "false",
-            "pid": 352547,
-            "modified_at": 1505347200,
-            "num_tracks": 141,
-            "num_albums": 80,
-            "num_followers": 192,
+            "pid": 695705,
+            "modified_at": 1500508800,
+            "num_tracks": 112,
+            "num_albums": 100,
+            "num_followers": 2593,
             "tracks": [
                 {
-                    "pos": 0,
-                    "artist_name": "Earth, Wind & Fire",
-                    "track_uri": "spotify:track:2RaN7kGPxuT3wvpdw9dyND",
-                    "artist_uri": "spotify:artist:4QQgXkCYTt3BlENzhyNETg",
-                    "track_name": "Beijo (Interlude) aka Brazilian Rhyme (Interlude)",
-                    "album_uri": "spotify:album:0w0eT42Gyq6G9yXB0RirWh",
-                    "duration_ms": 80146,
-                    "album_name": "All 'N All"
+                    "pos": 4,
+                    "artist_name": "J-Kwon",
+                    "track_uri": "spotify:track:0jSMveIWvnhDIvzqN74Uc7",
+                    "artist_uri": "spotify:artist:1Zz5UxfKSSqc6hpa3xJPCw",
+                    "track_name": "Tipsy - Club Mix",
+                    "album_uri": "spotify:album:4yTlfDLsW1dK2kG1qoNsrv",
+                    "duration_ms": 243226,
+                    "album_name": "Hood Hop"
                 },
                 {
-                    "pos": 1,
-                    "artist_name": "Earth, Wind & Fire",
-                    "track_uri": "spotify:track:1Q02TxUD4iUeqtkRSXBxrs",
-                    "artist_uri": "spotify:artist:4QQgXkCYTt3BlENzhyNETg",
-                    "track_name": "Be Ever Wonderful",
-                    "album_uri": "spotify:album:0w0eT42Gyq6G9yXB0RirWh",
-                    "duration_ms": 307626,
-                    "album_name": "All 'N All"
-                },
-                {
-                    "pos": 2,
-                    "artist_name": "Aqualung",
-                    "track_uri": "spotify:track:3W6UA36h0zahjxU709wLSI",
-                    "artist_uri": "spotify:artist:3uT7nEkZwWc2GBiqUZGoOe",
-                    "track_name": "Brighter Than Sunshine",
-                    "album_uri": "spotify:album:2w1zxP11Ec4G3fF92ErPyp",
-                    "duration_ms": 241360,
-                    "album_name": "Strange & Beautiful"
-                },
-                {
-                    "pos": 3,
-                    "artist_name": "Joey Alexander",
-                    "track_uri": "spotify:track:7hDoOGJLhrW1JtuJHg0YSd",
-                    "artist_uri": "spotify:artist:0FcNSKwWZJb98ry9M2qEII",
-                    "track_name": "My Favorite Things",
-                    "album_uri": "spotify:album:5JAC1L65zyc4hwS6msOp5Z",
-                    "duration_ms": 376520,
-                    "album_name": "My Favorite Things"
+                    "pos": 5,
+                    "artist_name": "Petey Pablo",
+                    "track_uri": "spotify:track:4MeDnO5yA2Zi6IMlVApRci",
+                    "artist_uri": "spotify:artist:4Js9eYwAf9rypNtV8pNSw9",
+                    "track_name": "Freek-A-Leek",
+                    "album_uri": "spotify:album:2R7G5Z0RWWZU1V731JZG68",
+                    "duration_ms": 235186,
+                    "album_name": "Still Writing In My Diary: 2nd Entry"
                 },
                 {
                     "pos": 6,
-                    "artist_name": "Danger Mouse",
-                    "track_uri": "spotify:track:0CIvOZBEQmVtePr3dHZMPO",
-                    "artist_uri": "spotify:artist:2dBj3prW7gP9bCCOIQeDUf",
-                    "track_name": "Two Against One (feat. Jack White)",
-                    "album_uri": "spotify:album:2nBo5nFoszkjuY0bxv1y0A",
-                    "duration_ms": 140960,
-                    "album_name": "Rome"
-                },
-                {
-                    "pos": 13,
-                    "artist_name": "Bobby Caldwell",
-                    "track_uri": "spotify:track:1lB6TCFlx4f50wdetOuGcT",
-                    "artist_uri": "spotify:artist:4V4Z3qMCwYofWHtip6ePF6",
-                    "track_name": "What You Won't Do for Love",
-                    "album_uri": "spotify:album:2a14ImqDpJiXMPZykB5nbx",
-                    "duration_ms": 286493,
-                    "album_name": "What You Won't Do for Love"
-                },
-                {
-                    "pos": 14,
-                    "artist_name": "Michael Franks",
-                    "track_uri": "spotify:track:0zS5yED1tcpP5gXTTj0IL0",
-                    "artist_uri": "spotify:artist:0AVE7rDx4X9w0pW1XlN1om",
-                    "track_name": "The Lady Wants To Know",
-                    "album_uri": "spotify:album:4z3AgcuD8k8rkzXjdDw1ry",
-                    "duration_ms": 284426,
-                    "album_name": "Sleeping Gypsy"
-                },
-                {
-                    "pos": 15,
-                    "artist_name": "Michael Franks",
-                    "track_uri": "spotify:track:4y5yv6CQuJLgPMztYpwpMV",
-                    "artist_uri": "spotify:artist:0AVE7rDx4X9w0pW1XlN1om",
-                    "track_name": "Your Secret's Safe With Me",
-                    "album_uri": "spotify:album:7eW7cmILNYJlWvglZqPqhV",
-                    "duration_ms": 279866,
-                    "album_name": "Skin Dive"
-                },
-                {
-                    "pos": 16,
-                    "artist_name": "Bill Withers",
-                    "track_uri": "spotify:track:6GETCaMrDCu3uFe2TMkyGA",
-                    "artist_uri": "spotify:artist:1ThoqLcyIYvZn7iWbj8fsj",
-                    "track_name": "The Same Love That Made Me Laugh",
-                    "album_uri": "spotify:album:10jKkqtTI0cblOQjJfDUpt",
-                    "duration_ms": 204706,
-                    "album_name": "'Justments"
-                },
-                {
-                    "pos": 17,
-                    "artist_name": "Bill Withers",
-                    "track_uri": "spotify:track:1k1Bqnv2R0uJXQN4u6LKYt",
-                    "artist_uri": "spotify:artist:1ThoqLcyIYvZn7iWbj8fsj",
-                    "track_name": "Ain't No Sunshine",
-                    "album_uri": "spotify:album:6N8uPmDqbgXD3ztkCCfxoo",
-                    "duration_ms": 125093,
-                    "album_name": "Just As I Am"
-                }
-            ],
-            "num_edits": 45,
-            "duration_ms": 37696503,
-            "num_artists": 54
-        },
-        "options": {
-            "binary": {
-                "permutation": [
-                    0,
-                    5,
-                    7,
-                    2,
-                    1,
-                    4,
-                    9,
-                    8,
-                    6,
-                    3
-                ],
-                "distance": 3
-            },
-            "circle": {
-                "permutation": [
-                    0,
-                    5,
-                    7,
-                    2,
-                    3,
-                    9,
-                    6,
-                    8,
-                    1,
-                    4
-                ],
-                "distance": 46.241951323853506
-            },
-            "tiv": {
-                "permutation": [
-                    0,
-                    2,
-                    7,
-                    5,
-                    4,
-                    6,
-                    1,
-                    8,
-                    9,
-                    3
-                ],
-                "distance": 0.45448480617826864
-            },
-            "ph": {
-                "permutation": [
-                    0,
-                    4,
-                    2,
-                    6,
-                    3,
-                    5,
-                    9,
-                    1,
-                    7,
-                    8
-                ],
-                "distance": 2.089937867048132
-            }
-        }
-    },
-    {
-        "uris": [
-            "spotify:track:5LlsD7LdSMkGV4Iu0a2Zq0",
-            "spotify:track:3skn2lauGk7Dx6bVIt5DVj",
-            "spotify:track:3lPr8ghNDBLc2uZovNyLs9",
-            "spotify:track:7w5cxTEzp1rfV3KCy0Bd5N",
-            "spotify:track:12WtkO5DLE2CWjRGeXtwEW",
-            "spotify:track:2JCBER0TK8Of3EZ4yB2Y3Q",
-            "spotify:track:7oGZAicScQt96OAW4AruYy",
-            "spotify:track:2S5LNtRVRPbXk01yRQ14sZ",
-            "spotify:track:1IJz0TqzRVYQlWhnqytzxx",
-            "spotify:track:7BKLCZ1jbUBVqRi2FVlTVw"
-        ],
-        "playlist": {
-            "name": "2017 Playlist",
-            "collaborative": "false",
-            "pid": 503843,
-            "modified_at": 1488412800,
-            "num_tracks": 85,
-            "num_albums": 74,
-            "num_followers": 264,
-            "tracks": [
-                {
-                    "pos": 0,
-                    "artist_name": "Kings of Leon",
-                    "track_uri": "spotify:track:5LlsD7LdSMkGV4Iu0a2Zq0",
-                    "artist_uri": "spotify:artist:2qk9voo8llSGYcZ6xrBzKx",
-                    "track_name": "Waste A Moment",
-                    "album_uri": "spotify:album:08ibdX8K0GETv20UEku3sm",
-                    "duration_ms": 183093,
-                    "album_name": "WALLS"
-                },
-                {
-                    "pos": 6,
-                    "artist_name": "Muse",
-                    "track_uri": "spotify:track:3skn2lauGk7Dx6bVIt5DVj",
-                    "artist_uri": "spotify:artist:12Chz98pHFMPJEknJQMWvI",
-                    "track_name": "Starlight",
-                    "album_uri": "spotify:album:0lw68yx3MhKflWFqCsGkIs",
-                    "duration_ms": 240213,
-                    "album_name": "Black Holes And Revelations"
+                    "artist_name": "Yung Joc",
+                    "track_uri": "spotify:track:05Sgj1Hx03ZXc57gsV1kfX",
+                    "artist_uri": "spotify:artist:23LbwefIODbyGdRbAz3urj",
+                    "track_name": "It's Goin' Down (feat. Nitti) - Feat. Nitti Explicit Album Version",
+                    "album_uri": "spotify:album:1Lr1TMh8vcdD3OvrzQTGVn",
+                    "duration_ms": 241840,
+                    "album_name": "New Joc City"
                 },
                 {
                     "pos": 7,
-                    "artist_name": "Muse",
-                    "track_uri": "spotify:track:3lPr8ghNDBLc2uZovNyLs9",
-                    "artist_uri": "spotify:artist:12Chz98pHFMPJEknJQMWvI",
-                    "track_name": "Supermassive Black Hole",
-                    "album_uri": "spotify:album:0lw68yx3MhKflWFqCsGkIs",
-                    "duration_ms": 212439,
-                    "album_name": "Black Holes And Revelations"
+                    "artist_name": "Youngbloodz",
+                    "track_uri": "spotify:track:6o3s08kk2fQI37vxGZDrJ1",
+                    "artist_uri": "spotify:artist:2OqENqJFXPORP4BUGnu2Qq",
+                    "track_name": "Snap Yo Fingers",
+                    "album_uri": "spotify:album:5ot3hAGLgvrmfZ3ddosFZf",
+                    "duration_ms": 274386,
+                    "album_name": "Snap Yo Fingers - Single"
                 },
                 {
-                    "pos": 11,
-                    "artist_name": "Edward Sharpe & The Magnetic Zeros",
-                    "track_uri": "spotify:track:7w5cxTEzp1rfV3KCy0Bd5N",
-                    "artist_uri": "spotify:artist:7giUHu5pv6YTZgSkxxCcgh",
-                    "track_name": "Home",
-                    "album_uri": "spotify:album:39xrkt8RILtwa9DMyLkv32",
-                    "duration_ms": 303200,
-                    "album_name": "Up from Below"
+                    "pos": 14,
+                    "artist_name": "Beyonc\u00e9",
+                    "track_uri": "spotify:track:1oQZk2bKBLgP1cbuFKvjkq",
+                    "artist_uri": "spotify:artist:6vWDO969PvNqNYHIOW5v0m",
+                    "track_name": "If I Were a Boy",
+                    "album_uri": "spotify:album:3ROfBX6lJLnCmaw1NrP5K9",
+                    "duration_ms": 249866,
+                    "album_name": "I AM...SASHA FIERCE - Platinum Edition"
                 },
                 {
-                    "pos": 12,
-                    "artist_name": "Edward Sharpe & The Magnetic Zeros",
-                    "track_uri": "spotify:track:12WtkO5DLE2CWjRGeXtwEW",
-                    "artist_uri": "spotify:artist:7giUHu5pv6YTZgSkxxCcgh",
-                    "track_name": "40 Day Dream",
-                    "album_uri": "spotify:album:39xrkt8RILtwa9DMyLkv32",
-                    "duration_ms": 233586,
-                    "album_name": "Up from Below"
+                    "pos": 15,
+                    "artist_name": "Justin Timberlake",
+                    "track_uri": "spotify:track:7Lf7oSEVdzZqTA0kEDSlS5",
+                    "artist_uri": "spotify:artist:31TPClRtHm23RisEBtV3X7",
+                    "track_name": "Cry Me a River",
+                    "album_uri": "spotify:album:6QPkyl04rXwTGlGlcYaRoW",
+                    "duration_ms": 288333,
+                    "album_name": "Justified"
                 },
                 {
-                    "pos": 13,
-                    "artist_name": "Edward Sharpe & The Magnetic Zeros",
-                    "track_uri": "spotify:track:2JCBER0TK8Of3EZ4yB2Y3Q",
-                    "artist_uri": "spotify:artist:7giUHu5pv6YTZgSkxxCcgh",
-                    "track_name": "Better Days",
-                    "album_uri": "spotify:album:7fq2IinHT3nElFjv7Ilxi3",
-                    "duration_ms": 265266,
-                    "album_name": "Edward Sharpe & The Magnetic Zeros"
+                    "pos": 16,
+                    "artist_name": "Destiny's Child",
+                    "track_uri": "spotify:track:7H6ev70Weq6DdpZyyTmUXk",
+                    "artist_uri": "spotify:artist:1Y8cdNmUJH7yBTd9yOvr5i",
+                    "track_name": "Say My Name",
+                    "album_uri": "spotify:album:283NWqNsCA9GwVHrJk59CG",
+                    "duration_ms": 271333,
+                    "album_name": "The Writing's On The Wall"
+                },
+                {
+                    "pos": 17,
+                    "artist_name": "Coldplay",
+                    "track_uri": "spotify:track:0BCPKOYdS2jbQ8iyB56Zns",
+                    "artist_uri": "spotify:artist:4gzpq5DPGxSnKTe4SA8HAU",
+                    "track_name": "Clocks",
+                    "album_uri": "spotify:album:0RHX9XECH8IVI3LNgWDpmQ",
+                    "duration_ms": 307879,
+                    "album_name": "A Rush Of Blood To The Head"
+                },
+                {
+                    "pos": 20,
+                    "artist_name": "Third Eye Blind",
+                    "track_uri": "spotify:track:1sxUaLi0G2vB7dl4ogtCxH",
+                    "artist_uri": "spotify:artist:6TcnmlCSxihzWOQJ8k0rNS",
+                    "track_name": "Never Let You Go - 2008 Version",
+                    "album_uri": "spotify:album:7z6LqzGLGd6tnWvsH9iojB",
+                    "duration_ms": 237240,
+                    "album_name": "Blue"
                 },
                 {
                     "pos": 22,
-                    "artist_name": "Jason Derulo",
-                    "track_uri": "spotify:track:7oGZAicScQt96OAW4AruYy",
-                    "artist_uri": "spotify:artist:07YZf4WDAMNwqr4jfgOZ8y",
-                    "track_name": "Want to Want Me",
-                    "album_uri": "spotify:album:59eUYETmE1zi31ESb3SUkI",
-                    "duration_ms": 207719,
-                    "album_name": "Everything Is 4"
-                },
-                {
-                    "pos": 23,
-                    "artist_name": "Flo Rida",
-                    "track_uri": "spotify:track:2S5LNtRVRPbXk01yRQ14sZ",
-                    "artist_uri": "spotify:artist:0jnsk9HBra6NMjO2oANoPY",
-                    "track_name": "I Don't Like It, I Love It (feat. Robin Thicke & Verdine White)",
-                    "album_uri": "spotify:album:5lkNnHVlnCCCV304t89wOH",
-                    "duration_ms": 224258,
-                    "album_name": "MY HOUSE"
-                },
-                {
-                    "pos": 26,
-                    "artist_name": "Underparks",
-                    "track_uri": "spotify:track:1IJz0TqzRVYQlWhnqytzxx",
-                    "artist_uri": "spotify:artist:2uascmh47gSxxYIBS2Xnh0",
-                    "track_name": "Good Feeling",
-                    "album_uri": "spotify:album:0O0dwUxlTcgph4KLTWRgn3",
-                    "duration_ms": 250160,
-                    "album_name": "Top Music Hits 2014: Best Songs of Electro Pop, Dance, Latino & Disco. The Hottest Album of the Year"
-                },
-                {
-                    "pos": 29,
-                    "artist_name": "The Chainsmokers",
-                    "track_uri": "spotify:track:7BKLCZ1jbUBVqRi2FVlTVw",
-                    "artist_uri": "spotify:artist:69GGBxA162lTqCwzJG5jLp",
-                    "track_name": "Closer",
-                    "album_uri": "spotify:album:0rSLgV8p5FzfnqlEk4GzxE",
-                    "duration_ms": 244960,
-                    "album_name": "Closer"
+                    "artist_name": "Train",
+                    "track_uri": "spotify:track:2hKdd3qO7cWr2Jo0Bcs0MA",
+                    "artist_uri": "spotify:artist:3FUY2gzHeIiaesXtOAdB7A",
+                    "track_name": "Drops of Jupiter",
+                    "album_uri": "spotify:album:6j6Zgm7vzAZegr48UppFVT",
+                    "duration_ms": 259933,
+                    "album_name": "Drops Of Jupiter"
                 }
             ],
-            "num_edits": 13,
-            "duration_ms": 19093612,
-            "num_artists": 64
+            "num_edits": 12,
+            "duration_ms": 27065690,
+            "num_artists": 80
+        },
+        "options": {
+            "binary": {
+                "permutation": [
+                    0,
+                    1,
+                    9,
+                    2,
+                    3,
+                    8,
+                    4,
+                    7,
+                    5,
+                    6
+                ],
+                "distance": 5
+            },
+            "circle": {
+                "permutation": [
+                    0,
+                    1,
+                    9,
+                    2,
+                    6,
+                    7,
+                    4,
+                    5,
+                    8,
+                    3
+                ],
+                "distance": 39.32875979373114
+            },
+            "tiv": {
+                "permutation": [
+                    0,
+                    2,
+                    6,
+                    7,
+                    4,
+                    5,
+                    8,
+                    3,
+                    1,
+                    9
+                ],
+                "distance": 0.5836519253009778
+            },
+            "ph": {
+                "permutation": [
+                    0,
+                    3,
+                    9,
+                    5,
+                    1,
+                    7,
+                    8,
+                    2,
+                    4,
+                    6
+                ],
+                "distance": 1.9017479257170795
+            }
+        }
+    },
+    {
+        "uris": [
+            "spotify:track:33i30iRaIfo7ABAaT5oqDy",
+            "spotify:track:55gDXEcj1heJNWZU2Ah5HH",
+            "spotify:track:5CjrMbWa5HP0cY3sT28RDi",
+            "spotify:track:2h3Wy9FcPrp3q8QRvRP6zj",
+            "spotify:track:2OCo2YZ0IoiqNlDHlxHUeB",
+            "spotify:track:211mktDmIq7g2Q4gBTXphj",
+            "spotify:track:6Zc5EXYSjDrKjyyWS29NNA",
+            "spotify:track:4qAMJga3GyOCwOkj40J3j7",
+            "spotify:track:75Gx0GpA7IQhZDiphHc60q",
+            "spotify:track:2MqlwwG603B6OiHBw65xux"
+        ],
+        "playlist": {
+            "name": "Alta Consigna",
+            "collaborative": "false",
+            "pid": 824642,
+            "modified_at": 1477094400,
+            "num_tracks": 82,
+            "num_albums": 32,
+            "num_followers": 2341,
+            "tracks": [
+                {
+                    "pos": 33,
+                    "artist_name": "Banda Sinaloense MS de Sergio Liz\u00e1rraga",
+                    "track_uri": "spotify:track:33i30iRaIfo7ABAaT5oqDy",
+                    "artist_uri": "spotify:artist:2C6i0I5RiGzDKN9IAF8reh",
+                    "track_name": "Pi\u00e9nsalo - In\u00e9dita",
+                    "album_uri": "spotify:album:6r04T8tMrbESCITPfmeSE6",
+                    "duration_ms": 155973,
+                    "album_name": "En Vivo Guadalajara - Monterrey"
+                },
+                {
+                    "pos": 35,
+                    "artist_name": "Los Plebes del Rancho de Ariel Camacho",
+                    "track_uri": "spotify:track:55gDXEcj1heJNWZU2Ah5HH",
+                    "artist_uri": "spotify:artist:6cnl6Jz97730GUS8zEAK77",
+                    "track_name": "DEL Negociante",
+                    "album_uri": "spotify:album:0lMw8xxFLYRSGYRlGzo8uc",
+                    "duration_ms": 203068,
+                    "album_name": "Recuerden Mi Estilo"
+                },
+                {
+                    "pos": 36,
+                    "artist_name": "Ariel Camacho y Los Plebes Del Rancho",
+                    "track_uri": "spotify:track:5CjrMbWa5HP0cY3sT28RDi",
+                    "artist_uri": "spotify:artist:2Lxa3SFNEW0alfRvtdXOul",
+                    "track_name": "Yo Quisiera Entrar",
+                    "album_uri": "spotify:album:4g5NzMdGbeRjCDEJK4uwiu",
+                    "duration_ms": 282885,
+                    "album_name": "Hablemos"
+                },
+                {
+                    "pos": 37,
+                    "artist_name": "Adriel Favela",
+                    "track_uri": "spotify:track:2h3Wy9FcPrp3q8QRvRP6zj",
+                    "artist_uri": "spotify:artist:0PrhwIWbqYFYyY2ZrkIWgI",
+                    "track_name": "Tomen Nota",
+                    "album_uri": "spotify:album:0Rh9dceuzPl3SX2pRsCKvp",
+                    "duration_ms": 154386,
+                    "album_name": "Tomen Nota"
+                },
+                {
+                    "pos": 38,
+                    "artist_name": "Omar Ruiz",
+                    "track_uri": "spotify:track:2OCo2YZ0IoiqNlDHlxHUeB",
+                    "artist_uri": "spotify:artist:2ylQO8qFEBINvkNNZGe4uC",
+                    "track_name": "El Americano",
+                    "album_uri": "spotify:album:6TkpKVE4nF2TFZOd610pHw",
+                    "duration_ms": 227759,
+                    "album_name": "La Santita"
+                },
+                {
+                    "pos": 39,
+                    "artist_name": "Los Plebes del Rancho de Ariel Camacho",
+                    "track_uri": "spotify:track:211mktDmIq7g2Q4gBTXphj",
+                    "artist_uri": "spotify:artist:6cnl6Jz97730GUS8zEAK77",
+                    "track_name": "No Lo Hice Bien",
+                    "album_uri": "spotify:album:0lMw8xxFLYRSGYRlGzo8uc",
+                    "duration_ms": 183547,
+                    "album_name": "Recuerden Mi Estilo"
+                },
+                {
+                    "pos": 40,
+                    "artist_name": "Lenin Ram\u00edrez",
+                    "track_uri": "spotify:track:6Zc5EXYSjDrKjyyWS29NNA",
+                    "artist_uri": "spotify:artist:3hTffafUYLLgO4yuPAxb5U",
+                    "track_name": "Soy La Suerte",
+                    "album_uri": "spotify:album:79ZIEAQjbnfv1GHteRx3P7",
+                    "duration_ms": 180050,
+                    "album_name": "Mi Conquista"
+                },
+                {
+                    "pos": 41,
+                    "artist_name": "Ariel Camacho y Los Plebes Del Rancho",
+                    "track_uri": "spotify:track:4qAMJga3GyOCwOkj40J3j7",
+                    "artist_uri": "spotify:artist:2Lxa3SFNEW0alfRvtdXOul",
+                    "track_name": "Reflejos del Viejo",
+                    "album_uri": "spotify:album:4OGTFgqeWBWK6FWJYAA8Ap",
+                    "duration_ms": 219903,
+                    "album_name": "El Karma"
+                },
+                {
+                    "pos": 42,
+                    "artist_name": "Ariel Camacho y Los Plebes Del Rancho",
+                    "track_uri": "spotify:track:75Gx0GpA7IQhZDiphHc60q",
+                    "artist_uri": "spotify:artist:2Lxa3SFNEW0alfRvtdXOul",
+                    "track_name": "La Bruta (Una Mula Resulto)",
+                    "album_uri": "spotify:album:2ReeGlHU8J7gkxsMGlpNhY",
+                    "duration_ms": 182212,
+                    "album_name": "El Karma (Deluxe Version)"
+                },
+                {
+                    "pos": 43,
+                    "artist_name": "Banda Terrible",
+                    "track_uri": "spotify:track:2MqlwwG603B6OiHBw65xux",
+                    "artist_uri": "spotify:artist:3GqRlm1O0w7c3q8rq8Uelz",
+                    "track_name": "La Fuga del Dorian - En Vivo",
+                    "album_uri": "spotify:album:3utjonJlSEmiBUYU4pJbHW",
+                    "duration_ms": 213226,
+                    "album_name": "En Vivo Fp en Culiacan Corridos en Vivo"
+                }
+            ],
+            "num_edits": 17,
+            "duration_ms": 15096459,
+            "num_artists": 24
         },
         "options": {
             "binary": {
                 "permutation": [
                     0,
                     2,
-                    3,
-                    4,
+                    7,
                     1,
-                    8,
                     9,
                     6,
-                    5,
-                    7
+                    8,
+                    3,
+                    4,
+                    5
                 ],
-                "distance": 3
+                "distance": 2
             },
             "circle": {
                 "permutation": [
                     0,
-                    3,
                     2,
-                    4,
-                    8,
+                    7,
                     1,
                     9,
                     6,
+                    8,
+                    4,
                     5,
-                    7
+                    3
                 ],
-                "distance": 46.67841492920428
+                "distance": 42.655661672058145
             },
             "tiv": {
                 "permutation": [
                     0,
                     3,
                     4,
-                    8,
-                    1,
-                    2,
-                    7,
                     5,
+                    8,
                     6,
-                    9
+                    9,
+                    1,
+                    7,
+                    2
                 ],
-                "distance": 0.4725832210503519
+                "distance": 0.5066632768446101
             },
             "ph": {
                 "permutation": [
                     0,
                     6,
-                    4,
-                    5,
-                    8,
-                    7,
-                    1,
                     3,
                     9,
+                    4,
+                    1,
+                    8,
+                    7,
+                    5,
                     2
                 ],
-                "distance": 1.8360454154732104
+                "distance": 1.9479720205870674
             }
         }
     },
     {
         "uris": [
-            "spotify:track:1Slwb6dOYkBlWal1PGtnNg",
-            "spotify:track:0SuG9kyzGRpDqrCWtgD6Lq",
-            "spotify:track:5sF7hdYvhrcgNq8NZjfK8L",
-            "spotify:track:161DnLWsx1i3u1JT05lzqU",
-            "spotify:track:4RL77hMWUq35NYnPLXBpih",
-            "spotify:track:7LVHVU3tWfcxj5aiPFEW4Q",
-            "spotify:track:5JDcQAztvZTIkrWoZihgvC",
-            "spotify:track:7keXdrB4mz57u4b8YkCwag",
-            "spotify:track:2d7LPtieXdIYzf7yHPooWd",
-            "spotify:track:5XRb8WQNvy6js1j9HrZ2M9"
+            "spotify:track:4r8lRYnoOGdEi6YyI5OC1o",
+            "spotify:track:0j55p8YRAPG8yajtNyjt6A",
+            "spotify:track:3MjUtNVVq3C8Fn0MP3zhXa",
+            "spotify:track:4jnFqNWeJCeCRHc4HCdxfd",
+            "spotify:track:3XVozq1aeqsJwpXrEZrDJ9",
+            "spotify:track:6wdviVWctiZnY6tVn6bh6A",
+            "spotify:track:5ChkMS8OtdzJeqyybCc9R5",
+            "spotify:track:6I9VzXrHxO9rA9A5euc8Ak",
+            "spotify:track:2KeFEmC9tWtNaF2hZ7yLpm",
+            "spotify:track:0DvW1OmI9N7ikF1yyHGiWr"
         ],
         "playlist": {
-            "name": "miss you",
+            "name": "Cleaning Playlist",
             "collaborative": "false",
-            "pid": 326922,
-            "modified_at": 1507334400,
-            "num_tracks": 172,
-            "num_albums": 147,
-            "num_followers": 765,
+            "pid": 670157,
+            "modified_at": 1497139200,
+            "num_tracks": 76,
+            "num_albums": 59,
+            "num_followers": 1644,
             "tracks": [
+                {
+                    "pos": 0,
+                    "artist_name": "*NSYNC",
+                    "track_uri": "spotify:track:4r8lRYnoOGdEi6YyI5OC1o",
+                    "artist_uri": "spotify:artist:6Ff53KvcvAj5U7Z1vojB5o",
+                    "track_name": "Bye Bye Bye",
+                    "album_uri": "spotify:album:5hMd4vAfSUT1cbYCnRUako",
+                    "duration_ms": 200560,
+                    "album_name": "No Strings Attached"
+                },
+                {
+                    "pos": 2,
+                    "artist_name": "Gyptian",
+                    "track_uri": "spotify:track:0j55p8YRAPG8yajtNyjt6A",
+                    "artist_uri": "spotify:artist:2JX4h8xm0hNxCB0aNBWzyi",
+                    "track_name": "Hold You - Hold Yuh",
+                    "album_uri": "spotify:album:3Oi5j0kqicMfqW51jqrsfe",
+                    "duration_ms": 233253,
+                    "album_name": "Hold You"
+                },
+                {
+                    "pos": 3,
+                    "artist_name": "Britney Spears",
+                    "track_uri": "spotify:track:3MjUtNVVq3C8Fn0MP3zhXa",
+                    "artist_uri": "spotify:artist:26dSoYclwsYLMAKD3tpOr4",
+                    "track_name": "...Baby One More Time",
+                    "album_uri": "spotify:album:3WNxdumkSMGMJRhEgK80qx",
+                    "duration_ms": 211066,
+                    "album_name": "...Baby One More Time (Digital Deluxe Version)"
+                },
+                {
+                    "pos": 5,
+                    "artist_name": "Michael Jackson",
+                    "track_uri": "spotify:track:4jnFqNWeJCeCRHc4HCdxfd",
+                    "artist_uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm",
+                    "track_name": "Remember the Time",
+                    "album_uri": "spotify:album:0oX4SealMgNXrvRDhqqOKg",
+                    "duration_ms": 239226,
+                    "album_name": "Dangerous"
+                },
+                {
+                    "pos": 22,
+                    "artist_name": "Vanilla Ice",
+                    "track_uri": "spotify:track:3XVozq1aeqsJwpXrEZrDJ9",
+                    "artist_uri": "spotify:artist:7GXXMm3DB1VswVcuGyInUd",
+                    "track_name": "Ice Ice Baby",
+                    "album_uri": "spotify:album:20O6lfaDAoMhUj5TAvVbb6",
+                    "duration_ms": 254466,
+                    "album_name": "Vanilla Ice Is Back! - Hip Hop Classics"
+                },
+                {
+                    "pos": 23,
+                    "artist_name": "Michael Jackson",
+                    "track_uri": "spotify:track:6wdviVWctiZnY6tVn6bh6A",
+                    "artist_uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm",
+                    "track_name": "Black or White - Single Version",
+                    "album_uri": "spotify:album:1jcYwZsN7JEve9xsq9BuUX",
+                    "duration_ms": 198506,
+                    "album_name": "Number Ones"
+                },
+                {
+                    "pos": 24,
+                    "artist_name": "Michael Jackson",
+                    "track_uri": "spotify:track:5ChkMS8OtdzJeqyybCc9R5",
+                    "artist_uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm",
+                    "track_name": "Billie Jean",
+                    "album_uri": "spotify:album:1C2h7mLntPSeVYciMRTF4a",
+                    "duration_ms": 293826,
+                    "album_name": "Thriller 25 Super Deluxe Edition"
+                },
+                {
+                    "pos": 25,
+                    "artist_name": "Britney Spears",
+                    "track_uri": "spotify:track:6I9VzXrHxO9rA9A5euc8Ak",
+                    "artist_uri": "spotify:artist:26dSoYclwsYLMAKD3tpOr4",
+                    "track_name": "Toxic",
+                    "album_uri": "spotify:album:0z7pVBGOD7HCIB7S8eLkLI",
+                    "duration_ms": 198800,
+                    "album_name": "In The Zone"
+                },
+                {
+                    "pos": 27,
+                    "artist_name": "Shakira",
+                    "track_uri": "spotify:track:2KeFEmC9tWtNaF2hZ7yLpm",
+                    "artist_uri": "spotify:artist:0EmeFodog0BfCgMzAIvKQp",
+                    "track_name": "Ciega, Sordomuda",
+                    "album_uri": "spotify:album:3JhHRFetUgAWw376a3sk6C",
+                    "duration_ms": 268186,
+                    "album_name": "Grandes Exitos"
+                },
+                {
+                    "pos": 28,
+                    "artist_name": "Shakira",
+                    "track_uri": "spotify:track:0DvW1OmI9N7ikF1yyHGiWr",
+                    "artist_uri": "spotify:artist:0EmeFodog0BfCgMzAIvKQp",
+                    "track_name": "Moscas en la Casa",
+                    "album_uri": "spotify:album:3JhHRFetUgAWw376a3sk6C",
+                    "duration_ms": 211493,
+                    "album_name": "Grandes Exitos"
+                }
+            ],
+            "num_edits": 3,
+            "duration_ms": 17775900,
+            "num_artists": 35,
+            "description": "what i like to listen to when i&#x27;m cleaning... mostly throwbacks!"
+        },
+        "options": {
+            "binary": {
+                "permutation": [
+                    0,
+                    2,
+                    4,
+                    7,
+                    3,
+                    1,
+                    8,
+                    9,
+                    5,
+                    6
+                ],
+                "distance": 3
+            },
+            "circle": {
+                "permutation": [
+                    0,
+                    6,
+                    5,
+                    9,
+                    4,
+                    2,
+                    7,
+                    3,
+                    1,
+                    8
+                ],
+                "distance": 43.18226744183953
+            },
+            "tiv": {
+                "permutation": [
+                    0,
+                    8,
+                    6,
+                    5,
+                    9,
+                    4,
+                    2,
+                    7,
+                    3,
+                    1
+                ],
+                "distance": 0.5056945396434519
+            },
+            "ph": {
+                "permutation": [
+                    0,
+                    4,
+                    1,
+                    9,
+                    3,
+                    5,
+                    8,
+                    2,
+                    6,
+                    7
+                ],
+                "distance": 1.958506866859494
+            }
+        }
+    },
+    {
+        "uris": [
+            "spotify:track:6vSwxzO2Qf4BinHSXRwZJe",
+            "spotify:track:1Slwb6dOYkBlWal1PGtnNg",
+            "spotify:track:6lanRgr6wXibZr8KgzXxBl",
+            "spotify:track:2qLMf6TuEC3ruGJg4SMMN6",
+            "spotify:track:7l1qvxWjxcKpB9PCtBuTbU",
+            "spotify:track:5Jt1gxsHBc1pDEc4FXamE9",
+            "spotify:track:63MRutmAXJwkxhMhPHoioS",
+            "spotify:track:6YUTL4dYpB9xZO5qExPf05",
+            "spotify:track:3axj7Y0XGbrS6PQ2pXFwvC",
+            "spotify:track:4T6HLdP6OcAtqC6tGnQelG"
+        ],
+        "playlist": {
+            "name": "Wedding Music",
+            "collaborative": "false",
+            "pid": 942902,
+            "modified_at": 1489276800,
+            "num_tracks": 140,
+            "num_albums": 123,
+            "num_followers": 1363,
+            "tracks": [
+                {
+                    "pos": 0,
+                    "artist_name": "Ed Sheeran",
+                    "track_uri": "spotify:track:6vSwxzO2Qf4BinHSXRwZJe",
+                    "artist_uri": "spotify:artist:6eUKZXaKkcviH0Ku9w2n3V",
+                    "track_name": "Tenerife Sea",
+                    "album_uri": "spotify:album:6NoBzYmh5gUusGPCfg0pct",
+                    "duration_ms": 241346,
+                    "album_name": "x"
+                },
                 {
                     "pos": 1,
                     "artist_name": "Ed Sheeran",
@@ -983,112 +1754,102 @@
                     "album_name": "x"
                 },
                 {
-                    "pos": 5,
-                    "artist_name": "Ed Sheeran",
-                    "track_uri": "spotify:track:0SuG9kyzGRpDqrCWtgD6Lq",
-                    "artist_uri": "spotify:artist:6eUKZXaKkcviH0Ku9w2n3V",
-                    "track_name": "Give Me Love",
-                    "album_uri": "spotify:album:02pi98kE0nra0yBqCStzbC",
-                    "duration_ms": 526386,
-                    "album_name": "+"
+                    "pos": 3,
+                    "artist_name": "Christina Perri",
+                    "track_uri": "spotify:track:6lanRgr6wXibZr8KgzXxBl",
+                    "artist_uri": "spotify:artist:7H55rcKCfwqkyDFH9wpKM6",
+                    "track_name": "A Thousand Years",
+                    "album_uri": "spotify:album:15yvc643iYfQtb6zh9NEJo",
+                    "duration_ms": 285120,
+                    "album_name": "A Thousand Years"
                 },
                 {
-                    "pos": 6,
-                    "artist_name": "Birdy",
-                    "track_uri": "spotify:track:5sF7hdYvhrcgNq8NZjfK8L",
-                    "artist_uri": "spotify:artist:2WX2uTcsvV5OnS0inACecP",
-                    "track_name": "Not About Angels",
-                    "album_uri": "spotify:album:7DRvJhjucsH34zMXtEh0ER",
-                    "duration_ms": 189475,
-                    "album_name": "Not About Angels"
+                    "pos": 4,
+                    "artist_name": "Jason Mraz",
+                    "track_uri": "spotify:track:2qLMf6TuEC3ruGJg4SMMN6",
+                    "artist_uri": "spotify:artist:4phGZZrJZRo4ElhRtViYdl",
+                    "track_name": "Lucky",
+                    "album_uri": "spotify:album:1UwzOp5hn3lAbOqsAfXBw8",
+                    "duration_ms": 191360,
+                    "album_name": "We Sing. We Dance. We Steal Things."
                 },
                 {
-                    "pos": 7,
+                    "pos": 9,
                     "artist_name": "Bruno Mars",
-                    "track_uri": "spotify:track:161DnLWsx1i3u1JT05lzqU",
+                    "track_uri": "spotify:track:7l1qvxWjxcKpB9PCtBuTbU",
                     "artist_uri": "spotify:artist:0du5cEVh5yTK9QJze8zA0C",
-                    "track_name": "Talking To The Moon",
+                    "track_name": "Count On Me",
                     "album_uri": "spotify:album:1uyf3l2d4XYwiEqAb7t7fX",
-                    "duration_ms": 217866,
+                    "duration_ms": 197373,
                     "album_name": "Doo-Wops & Hooligans"
                 },
                 {
                     "pos": 10,
-                    "artist_name": "Birdy",
-                    "track_uri": "spotify:track:4RL77hMWUq35NYnPLXBpih",
-                    "artist_uri": "spotify:artist:2WX2uTcsvV5OnS0inACecP",
-                    "track_name": "Skinny Love",
-                    "album_uri": "spotify:album:1WGjSVIw0TVfbp5KrOFiP0",
-                    "duration_ms": 201080,
-                    "album_name": "Birdy"
+                    "artist_name": "Rock Mafia",
+                    "track_uri": "spotify:track:5Jt1gxsHBc1pDEc4FXamE9",
+                    "artist_uri": "spotify:artist:4pzAvicKWenQtv9zIQim47",
+                    "track_name": "Good Life (feat. Lauriana Mae)",
+                    "album_uri": "spotify:album:0ljvc71EpSM240M70GjMep",
+                    "duration_ms": 204585,
+                    "album_name": "Good Life (feat. Lauriana Mae)"
                 },
                 {
-                    "pos": 12,
-                    "artist_name": "Coldplay",
-                    "track_uri": "spotify:track:7LVHVU3tWfcxj5aiPFEW4Q",
-                    "artist_uri": "spotify:artist:4gzpq5DPGxSnKTe4SA8HAU",
-                    "track_name": "Fix You",
-                    "album_uri": "spotify:album:4E7bV0pzG0LciBSWTszra6",
-                    "duration_ms": 295533,
-                    "album_name": "X & Y"
-                },
-                {
-                    "pos": 14,
-                    "artist_name": "Ron Pope",
-                    "track_uri": "spotify:track:5JDcQAztvZTIkrWoZihgvC",
-                    "artist_uri": "spotify:artist:6CmXhyslohOFRJMtPpRm4O",
-                    "track_name": "A Drop In The Ocean",
-                    "album_uri": "spotify:album:0yVBYSlNkpWuqB9TheUQEm",
-                    "duration_ms": 220239,
-                    "album_name": "The Bedroom Demos"
+                    "pos": 11,
+                    "artist_name": "L\u00c9ON",
+                    "track_uri": "spotify:track:63MRutmAXJwkxhMhPHoioS",
+                    "artist_uri": "spotify:artist:4SqTiwOEdYrNayaGMkc7ia",
+                    "track_name": "Tired of Talking",
+                    "album_uri": "spotify:album:0pMPk0E9YCgU1PzxDViKf5",
+                    "duration_ms": 197000,
+                    "album_name": "Treasure - EP"
                 },
                 {
                     "pos": 16,
-                    "artist_name": "John Mayer",
-                    "track_uri": "spotify:track:7keXdrB4mz57u4b8YkCwag",
-                    "artist_uri": "spotify:artist:0hEurMDQu99nJRq8pTxO14",
-                    "track_name": "Dreaming with a Broken Heart",
-                    "album_uri": "spotify:album:1Xsprdt1q9rOzTic7b9zYM",
-                    "duration_ms": 245746,
-                    "album_name": "Continuum"
+                    "artist_name": "Calvin Harris",
+                    "track_uri": "spotify:track:6YUTL4dYpB9xZO5qExPf05",
+                    "artist_uri": "spotify:artist:7CajNmpbOovFoOoasH2HaY",
+                    "track_name": "Summer",
+                    "album_uri": "spotify:album:48zisMeiXniWLzOQghbPqS",
+                    "duration_ms": 222533,
+                    "album_name": "Motion"
                 },
                 {
                     "pos": 17,
-                    "artist_name": "Sleeping At Last",
-                    "track_uri": "spotify:track:2d7LPtieXdIYzf7yHPooWd",
-                    "artist_uri": "spotify:artist:0MeLMJJcouYXCymQSHPn8g",
-                    "track_name": "Chasing Cars",
-                    "album_uri": "spotify:album:0UIIvTTWNB3gRQWFoxoEDh",
-                    "duration_ms": 242564,
-                    "album_name": "Covers, Vol. 2"
+                    "artist_name": "Michael Bubl\u00e9",
+                    "track_uri": "spotify:track:3axj7Y0XGbrS6PQ2pXFwvC",
+                    "artist_uri": "spotify:artist:1GxkXlMwML1oSg5eLPiAz3",
+                    "track_name": "A Song For You - feat. Chris Botti",
+                    "album_uri": "spotify:album:2koUTBXkwUt2uJYv0uezHx",
+                    "duration_ms": 282266,
+                    "album_name": "It's Time"
                 },
                 {
                     "pos": 18,
-                    "artist_name": "Johnny Stimson",
-                    "track_uri": "spotify:track:5XRb8WQNvy6js1j9HrZ2M9",
-                    "artist_uri": "spotify:artist:00OF0nwYaoBSO3AnPVq3vE",
-                    "track_name": "Holding On",
-                    "album_uri": "spotify:album:6LzToK2Y1d4roAsSQx4WCR",
-                    "duration_ms": 199885,
-                    "album_name": "Holding On"
+                    "artist_name": "Michael Bubl\u00e9",
+                    "track_uri": "spotify:track:4T6HLdP6OcAtqC6tGnQelG",
+                    "artist_uri": "spotify:artist:1GxkXlMwML1oSg5eLPiAz3",
+                    "track_name": "Everything",
+                    "album_uri": "spotify:album:3h4pyWRJIB9ZyRKXChbX22",
+                    "duration_ms": 212373,
+                    "album_name": "Call Me Irresponsible"
                 }
             ],
-            "num_edits": 23,
-            "duration_ms": 41831111,
-            "num_artists": 116
+            "num_edits": 16,
+            "duration_ms": 31680105,
+            "num_artists": 106
         },
         "options": {
             "binary": {
                 "permutation": [
                     0,
-                    7,
-                    2,
-                    6,
+                    8,
                     1,
                     3,
-                    8,
                     4,
+                    6,
+                    7,
                     9,
+                    2,
                     5
                 ],
                 "distance": 3
@@ -1096,345 +1857,304 @@
             "circle": {
                 "permutation": [
                     0,
-                    9,
-                    3,
-                    4,
                     8,
-                    1,
                     5,
-                    6,
                     2,
-                    7
+                    4,
+                    6,
+                    3,
+                    7,
+                    1,
+                    9
                 ],
-                "distance": 45.13007895706162
+                "distance": 34.08560759511832
             },
             "tiv": {
                 "permutation": [
                     0,
-                    9,
-                    3,
                     8,
-                    4,
-                    1,
+                    2,
                     5,
                     6,
-                    2,
-                    7
+                    4,
+                    3,
+                    7,
+                    9,
+                    1
                 ],
-                "distance": 0.8384025855708064
+                "distance": 0.496432989898476
             },
             "ph": {
                 "permutation": [
                     0,
                     6,
-                    4,
-                    7,
                     8,
+                    3,
                     2,
+                    4,
                     1,
+                    7,
                     9,
-                    5,
-                    3
+                    5
                 ],
-                "distance": 2.0098855118262042
+                "distance": 2.2799457694855194
             }
         }
     },
     {
         "uris": [
-            "spotify:track:2MvIMgtWyK88OiPi0J8Dg3",
-            "spotify:track:5kpniBxCmDQWjpUK6YI5ml",
-            "spotify:track:5OTyz4XmxaoNbNVz02RPVH",
-            "spotify:track:4eRtGBzP92gjIMOtal2kNB",
-            "spotify:track:0Qrb3L8JgreLBW8g4qyan9",
-            "spotify:track:6SVMJlw8NLnfuPw0PSlrQR",
-            "spotify:track:1HjdgMFWVWWUJcCj6itPpf",
-            "spotify:track:4HcgoL4KNExj5LgmmFCj0D",
-            "spotify:track:0xgsyoVvRFSYvV5cdtYhX1",
-            "spotify:track:2ETGuTChPhwWge4syLqu9N"
+            "spotify:track:4GqMYg91LJXiLjvQBFc3s0",
+            "spotify:track:5RC5UyJdAZlIv3WJqt74d0",
+            "spotify:track:1aj4GXfmEYXfdVZohCpNKu",
+            "spotify:track:6xY6HV2H069Lhm5GAN2trZ",
+            "spotify:track:4busFoxb3889B2pkASDn9U",
+            "spotify:track:4zQLZPcTl8hJC5pJtooT3h",
+            "spotify:track:1PDGsRpTqqkGSgkMY4onF2",
+            "spotify:track:0DcrhZ12WcCqruCs8ibXSf",
+            "spotify:track:7nJdNU49icEq5woJOxHb1g",
+            "spotify:track:7L5cSgZxAEDDg60RpWc1ch"
         ],
         "playlist": {
-            "name": "~Inspirations~",
+            "name": "jamz",
             "collaborative": "false",
-            "pid": 35486,
-            "modified_at": 1421884800,
-            "num_tracks": 51,
-            "num_albums": 49,
-            "num_followers": 67,
+            "pid": 233335,
+            "modified_at": 1458259200,
+            "num_tracks": 74,
+            "num_albums": 70,
+            "num_followers": 63,
             "tracks": [
                 {
-                    "pos": 0,
-                    "artist_name": "Slipknot",
-                    "track_uri": "spotify:track:2MvIMgtWyK88OiPi0J8Dg3",
-                    "artist_uri": "spotify:artist:05fG473iIaoy82BF1aGhL8",
-                    "track_name": "Psychosocial",
-                    "album_uri": "spotify:album:0hFWapnP7orzXCMwNU5DuA",
-                    "duration_ms": 283400,
-                    "album_name": "All Hope Is Gone"
+                    "pos": 1,
+                    "artist_name": "Bobby Darin",
+                    "track_uri": "spotify:track:4GqMYg91LJXiLjvQBFc3s0",
+                    "artist_uri": "spotify:artist:0EodhzA6yW1bIdD5B4tcmJ",
+                    "track_name": "Dream Lover - 2006 Remastered Version",
+                    "album_uri": "spotify:album:23LtBxKUYBWCNQxcM2Iefo",
+                    "duration_ms": 151253,
+                    "album_name": "Definitive Pop: Bobby Darin"
                 },
                 {
-                    "pos": 2,
-                    "artist_name": "Glassjaw",
-                    "track_uri": "spotify:track:5kpniBxCmDQWjpUK6YI5ml",
-                    "artist_uri": "spotify:artist:7nt6S4klYHg4I7Q4lTSmc0",
-                    "track_name": "Piano",
-                    "album_uri": "spotify:album:5To08K1gE25vpF62QfywQY",
-                    "duration_ms": 298626,
-                    "album_name": "Everything You Ever Wanted To Know About Silence"
+                    "pos": 3,
+                    "artist_name": "Willie Nelson",
+                    "track_uri": "spotify:track:5RC5UyJdAZlIv3WJqt74d0",
+                    "artist_uri": "spotify:artist:5W5bDNCqJ1jbCgTxDD0Cb3",
+                    "track_name": "Three Days",
+                    "album_uri": "spotify:album:1FmeZJzXvMfCmJJlwGdCRq",
+                    "duration_ms": 74933,
+                    "album_name": "Snapshot: Willie Nelson"
+                },
+                {
+                    "pos": 4,
+                    "artist_name": "Otis Redding",
+                    "track_uri": "spotify:track:1aj4GXfmEYXfdVZohCpNKu",
+                    "artist_uri": "spotify:artist:60df5JBRRPcnSpsIMxxwQm",
+                    "track_name": "Stand By Me",
+                    "album_uri": "spotify:album:2BFOk5b8jjm2xmsbx7qXq3",
+                    "duration_ms": 172333,
+                    "album_name": "Pain In My Heart"
                 },
                 {
                     "pos": 5,
-                    "artist_name": "Armor For Sleep",
-                    "track_uri": "spotify:track:5OTyz4XmxaoNbNVz02RPVH",
-                    "artist_uri": "spotify:artist:7eSbps3Uha3MMBNWhMYa2H",
-                    "track_name": "Being Your Walls",
-                    "album_uri": "spotify:album:2BpTMalKI3yhZ2tVATUPXk",
-                    "duration_ms": 224920,
-                    "album_name": "Dream to Make Believe"
+                    "artist_name": "The Greenhornes",
+                    "track_uri": "spotify:track:6xY6HV2H069Lhm5GAN2trZ",
+                    "artist_uri": "spotify:artist:7sPZakwiHQUWkG1teFE8zv",
+                    "track_name": "Going To The River",
+                    "album_uri": "spotify:album:6eIpFf6vvpSP6qCik9JeBP",
+                    "duration_ms": 168160,
+                    "album_name": "Gun for You"
                 },
                 {
-                    "pos": 6,
-                    "artist_name": "From Autumn To Ashes",
-                    "track_uri": "spotify:track:4eRtGBzP92gjIMOtal2kNB",
-                    "artist_uri": "spotify:artist:1t0af5EH36iQVJ06XnLDOt",
-                    "track_name": "Short Stories With Tragic Endings",
-                    "album_uri": "spotify:album:5gZbzZKm0cBUfJwlUErOLm",
-                    "duration_ms": 565973,
-                    "album_name": "Too Bad You're Beautiful"
+                    "pos": 11,
+                    "artist_name": "Otis Redding",
+                    "track_uri": "spotify:track:4busFoxb3889B2pkASDn9U",
+                    "artist_uri": "spotify:artist:60df5JBRRPcnSpsIMxxwQm",
+                    "track_name": "You Don't Miss Your Water - Remastered Mono",
+                    "album_uri": "spotify:album:68BCjMsHX4Gf11BJSkjwGz",
+                    "duration_ms": 186360,
+                    "album_name": "Otis Blue: Otis Redding Sings Soul [Collector's Edition]"
                 },
                 {
-                    "pos": 7,
-                    "artist_name": "Deftones",
-                    "track_uri": "spotify:track:0Qrb3L8JgreLBW8g4qyan9",
-                    "artist_uri": "spotify:artist:6Ghvu1VvMGScGpOUJBAHNH",
-                    "track_name": "Back To School - Mini Maggit",
-                    "album_uri": "spotify:album:5LEXck3kfixFaA3CqVE7bC",
-                    "duration_ms": 237360,
-                    "album_name": "White Pony"
-                },
-                {
-                    "pos": 8,
-                    "artist_name": "Coheed and Cambria",
-                    "track_uri": "spotify:track:6SVMJlw8NLnfuPw0PSlrQR",
-                    "artist_uri": "spotify:artist:3utxjLheHaVEd9bPjQRsy8",
-                    "track_name": "Blood Red Summer",
-                    "album_uri": "spotify:album:2oWXmi9uLRKn60yRmY22MB",
-                    "duration_ms": 244880,
-                    "album_name": "In Keeping Secrets Of Silent Earth: 3"
-                },
-                {
-                    "pos": 10,
-                    "artist_name": "Far",
-                    "track_uri": "spotify:track:1HjdgMFWVWWUJcCj6itPpf",
-                    "artist_uri": "spotify:artist:0GQXHlIz6zMT0IeXQq26Pt",
-                    "track_name": "I Like It",
-                    "album_uri": "spotify:album:1Ac8uOok8TkMmGLqaHrUhN",
-                    "duration_ms": 201066,
-                    "album_name": "Water & Solutions"
+                    "pos": 12,
+                    "artist_name": "Elvis Presley",
+                    "track_uri": "spotify:track:4zQLZPcTl8hJC5pJtooT3h",
+                    "artist_uri": "spotify:artist:43ZHCT0cAZBISjO8DG9PnE",
+                    "track_name": "Trying to Get to You",
+                    "album_uri": "spotify:album:7GXP5OhYyPVLmcVfO9Iqin",
+                    "duration_ms": 150720,
+                    "album_name": "Elvis Presley"
                 },
                 {
                     "pos": 13,
-                    "artist_name": "311",
-                    "track_uri": "spotify:track:4HcgoL4KNExj5LgmmFCj0D",
-                    "artist_uri": "spotify:artist:41Q0HrwWBtuUkJc7C1Rp6K",
-                    "track_name": "Come Original",
-                    "album_uri": "spotify:album:4m0jnlUGcgxFUjF7JfearQ",
-                    "duration_ms": 223333,
-                    "album_name": "Soundsystem"
+                    "artist_name": "Vetiver",
+                    "track_uri": "spotify:track:1PDGsRpTqqkGSgkMY4onF2",
+                    "artist_uri": "spotify:artist:7ACSlU8kTcQIbvpwLWze8E",
+                    "track_name": "Blue Driver",
+                    "album_uri": "spotify:album:1c1QSSEh3Hv8FHoCQM4R7Y",
+                    "duration_ms": 237000,
+                    "album_name": "Thing Of The Past"
                 },
                 {
                     "pos": 14,
-                    "artist_name": "Korn",
-                    "track_uri": "spotify:track:0xgsyoVvRFSYvV5cdtYhX1",
-                    "artist_uri": "spotify:artist:3RNrq3jvMZxD9ZyoOZbQOD",
-                    "track_name": "A.D.I.D.A.S.",
-                    "album_uri": "spotify:album:2b813fSxxzp9lcOfnLrrTH",
-                    "duration_ms": 153600,
-                    "album_name": "Life Is Peachy"
+                    "artist_name": "Johnny Nash",
+                    "track_uri": "spotify:track:0DcrhZ12WcCqruCs8ibXSf",
+                    "artist_uri": "spotify:artist:0nAVvgfE9yI4DwvMiYwk8a",
+                    "track_name": "I Can See Clearly Now - Edit",
+                    "album_uri": "spotify:album:2ZdUVurLZBrEphCLzX7MdU",
+                    "duration_ms": 164733,
+                    "album_name": "I Can See Clearly Now"
+                },
+                {
+                    "pos": 15,
+                    "artist_name": "Grateful Dead",
+                    "track_uri": "spotify:track:7nJdNU49icEq5woJOxHb1g",
+                    "artist_uri": "spotify:artist:4TMHGUX5WI7OOm53PqSDAT",
+                    "track_name": "Deal - Live - 8/27/72 Veneta, Oregon",
+                    "album_uri": "spotify:album:1E4MXxSYoAMN5qpy1y6aBm",
+                    "duration_ms": 295000,
+                    "album_name": "Veneta, OR 8/27/72 (The Complete Sunshine Daydream Concert)"
                 },
                 {
                     "pos": 16,
-                    "artist_name": "Jawbox",
-                    "track_uri": "spotify:track:2ETGuTChPhwWge4syLqu9N",
-                    "artist_uri": "spotify:artist:0Fj0cWPHOpexJCZRdSHioP",
-                    "track_name": "Savory",
-                    "album_uri": "spotify:album:0gsVBsleAP9vsCBGqlhxIt",
-                    "duration_ms": 279266,
-                    "album_name": "For Your Own Special Sweetheart"
+                    "artist_name": "Willie Nelson",
+                    "track_uri": "spotify:track:7L5cSgZxAEDDg60RpWc1ch",
+                    "artist_uri": "spotify:artist:5W5bDNCqJ1jbCgTxDD0Cb3",
+                    "track_name": "I Gotta Get Drunk",
+                    "album_uri": "spotify:album:1FmeZJzXvMfCmJJlwGdCRq",
+                    "duration_ms": 99653,
+                    "album_name": "Snapshot: Willie Nelson"
                 }
             ],
-            "num_edits": 2,
-            "duration_ms": 13271327,
-            "num_artists": 46,
-            "description": "Some great songs that endlessly inspire the No Joy songwriting process! :::PARENTAL ADVISORY:::"
+            "num_edits": 8,
+            "duration_ms": 14477283,
+            "num_artists": 60
         },
         "options": {
             "binary": {
                 "permutation": [
                     0,
+                    1,
+                    6,
+                    8,
                     9,
                     4,
-                    1,
+                    2,
                     3,
-                    7,
-                    8,
                     5,
-                    6,
-                    2
+                    7
                 ],
-                "distance": 2
+                "distance": 3
             },
             "circle": {
                 "permutation": [
                     0,
-                    4,
-                    9,
                     1,
-                    3,
-                    7,
-                    8,
-                    5,
                     6,
+                    8,
+                    9,
+                    4,
+                    7,
+                    3,
+                    5,
                     2
                 ],
-                "distance": 43.05951578295931
+                "distance": 39.04115567501454
             },
             "tiv": {
                 "permutation": [
                     0,
-                    9,
-                    4,
                     1,
-                    3,
-                    8,
-                    7,
-                    5,
                     6,
-                    2
+                    8,
+                    9,
+                    7,
+                    4,
+                    2,
+                    3,
+                    5
                 ],
-                "distance": 0.46159340162467577
+                "distance": 0.4768574514322984
             },
             "ph": {
                 "permutation": [
                     0,
-                    4,
-                    8,
-                    6,
-                    3,
-                    2,
-                    1,
-                    5,
                     9,
+                    5,
+                    8,
+                    3,
+                    6,
+                    2,
+                    4,
+                    1,
                     7
                 ],
-                "distance": 2.0605459320848927
+                "distance": 2.0197011013182213
             }
         }
     },
     {
         "uris": [
-            "spotify:track:305WCRhhS10XUcH6AEwZk6",
-            "spotify:track:5SZ6zX4rOrEQferfFC2MfP",
-            "spotify:track:4DMKwE2E2iYDKY01C335Uw",
-            "spotify:track:2SiXAy7TuUkycRVbbWDEpo",
-            "spotify:track:70YvYr2hGlS01bKRIho1HM",
-            "spotify:track:39C5FuZ8C8M0QI8CrMsPkR",
-            "spotify:track:5E89Izp4YhPyNShoxiOJ1u",
-            "spotify:track:4PRGxHpCpF2yoOHYKQIEwD",
+            "spotify:track:6lXKNdOsnaLv9LwulZbxNl",
+            "spotify:track:39lSeqnyjZJejRuaREfyLL",
+            "spotify:track:18AXbzPzBS8Y3AkgSxzJPb",
+            "spotify:track:6ZxvgeoM6ipLYsQyftxImg",
             "spotify:track:39shmbIHICJ2Wxnk1fPSdz",
-            "spotify:track:08mG3Y1vljYA6bvDt4Wqkj"
+            "spotify:track:2374M0fQpWi3dLnB54qaLX",
+            "spotify:track:0WQiDwKJclirSYG9v5tayI",
+            "spotify:track:6uzLvZZOFLb8P2CDw85Pum",
+            "spotify:track:6drX65YeJBIgOWotVI1o8k",
+            "spotify:track:5FzBxhIsZBFXDTVGWtV4IQ"
         ],
         "playlist": {
-            "name": "We Will Rock You",
+            "name": "August 2016",
             "collaborative": "false",
-            "pid": 716066,
-            "modified_at": 1497225600,
-            "num_tracks": 161,
-            "num_albums": 127,
-            "num_followers": 98,
+            "pid": 767269,
+            "modified_at": 1472774400,
+            "num_tracks": 38,
+            "num_albums": 37,
+            "num_followers": 63,
             "tracks": [
                 {
                     "pos": 0,
-                    "artist_name": "Jet",
-                    "track_uri": "spotify:track:305WCRhhS10XUcH6AEwZk6",
-                    "artist_uri": "spotify:artist:5ypxebeHEIXjMtJb17uJlI",
-                    "track_name": "Are You Gonna Be My Girl",
-                    "album_uri": "spotify:album:6NrLpQCPYrNS3kVWxDgIlg",
-                    "duration_ms": 213800,
-                    "album_name": "Get Born"
+                    "artist_name": "Peter Schilling",
+                    "track_uri": "spotify:track:6lXKNdOsnaLv9LwulZbxNl",
+                    "artist_uri": "spotify:artist:7ip3CWlgPZbQHvgJpmcGSS",
+                    "track_name": "Major Tom",
+                    "album_uri": "spotify:album:1rYXSHYaxxQ9HclnAeVhxv",
+                    "duration_ms": 299560,
+                    "album_name": "Von Anfang An...Bis Jetzt !"
                 },
                 {
                     "pos": 2,
-                    "artist_name": "Aerosmith",
-                    "track_uri": "spotify:track:5SZ6zX4rOrEQferfFC2MfP",
-                    "artist_uri": "spotify:artist:7Ey4PD4MYsKc5I2dolUwbH",
-                    "track_name": "Walk This Way",
-                    "album_uri": "spotify:album:36IxIOGEBAXVozDSiVs09B",
-                    "duration_ms": 220400,
-                    "album_name": "Toys In The Attic"
-                },
-                {
-                    "pos": 4,
-                    "artist_name": "Kansas",
-                    "track_uri": "spotify:track:4DMKwE2E2iYDKY01C335Uw",
-                    "artist_uri": "spotify:artist:2hl0xAkS2AIRAu23TVMBG1",
-                    "track_name": "Carry on Wayward Son",
-                    "album_uri": "spotify:album:7MejfRSNnrpcLZIxkeZDqR",
-                    "duration_ms": 323000,
-                    "album_name": "Leftoverture"
+                    "artist_name": "Duran Duran",
+                    "track_uri": "spotify:track:39lSeqnyjZJejRuaREfyLL",
+                    "artist_uri": "spotify:artist:0lZoBs4Pzo7R89JM9lxwoT",
+                    "track_name": "Hungry Like The Wolf - 2009 Remastered Version",
+                    "album_uri": "spotify:album:02tfQwJSOLP77oCd9U8bqm",
+                    "duration_ms": 220626,
+                    "album_name": "Rio [Collector's Edition]"
                 },
                 {
                     "pos": 5,
-                    "artist_name": "AC/DC",
-                    "track_uri": "spotify:track:2SiXAy7TuUkycRVbbWDEpo",
-                    "artist_uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un",
-                    "track_name": "You Shook Me All Night Long",
-                    "album_uri": "spotify:album:6mUdeDZCsExyJLMdAfDuwh",
-                    "duration_ms": 210173,
-                    "album_name": "Back In Black"
+                    "artist_name": "Phil Collins",
+                    "track_uri": "spotify:track:18AXbzPzBS8Y3AkgSxzJPb",
+                    "artist_uri": "spotify:artist:4lxfqrEsLX6N1N4OCSkILp",
+                    "track_name": "In The Air Tonight - 2015 Remastered",
+                    "album_uri": "spotify:album:1cM3r0WQZWNkCpEbmFjLln",
+                    "duration_ms": 336453,
+                    "album_name": "Face Value (Deluxe Editon)"
                 },
                 {
                     "pos": 6,
-                    "artist_name": "ZZ Top",
-                    "track_uri": "spotify:track:70YvYr2hGlS01bKRIho1HM",
-                    "artist_uri": "spotify:artist:2AM4ilv6UzW0uMRuqKtDgN",
-                    "track_name": "La Grange - 2005 Remastered Version",
-                    "album_uri": "spotify:album:0Em8m9kRctyH9S3MTXAHvY",
-                    "duration_ms": 230480,
-                    "album_name": "Tres Hombres [Expanded & Remastered]"
+                    "artist_name": "Dabin",
+                    "track_uri": "spotify:track:6ZxvgeoM6ipLYsQyftxImg",
+                    "artist_uri": "spotify:artist:7lZauDnRoAC3kmaYae2opv",
+                    "track_name": "Hold (feat. Daniela Andrade)",
+                    "album_uri": "spotify:album:4dTJSiSw7vgvB1MlehLiNT",
+                    "duration_ms": 351875,
+                    "album_name": "Two Hearts"
                 },
                 {
-                    "pos": 9,
-                    "artist_name": "Boston",
-                    "track_uri": "spotify:track:39C5FuZ8C8M0QI8CrMsPkR",
-                    "artist_uri": "spotify:artist:29kkCKKGXheHuoO829FxWK",
-                    "track_name": "Foreplay / Long Time",
-                    "album_uri": "spotify:album:2QLp07RO6anZHmtcKTEvSC",
-                    "duration_ms": 467640,
-                    "album_name": "Boston"
-                },
-                {
-                    "pos": 10,
-                    "artist_name": "Boston",
-                    "track_uri": "spotify:track:5E89Izp4YhPyNShoxiOJ1u",
-                    "artist_uri": "spotify:artist:29kkCKKGXheHuoO829FxWK",
-                    "track_name": "Rock & Roll Band",
-                    "album_uri": "spotify:album:2QLp07RO6anZHmtcKTEvSC",
-                    "duration_ms": 180346,
-                    "album_name": "Boston"
-                },
-                {
-                    "pos": 11,
-                    "artist_name": "Led Zeppelin",
-                    "track_uri": "spotify:track:4PRGxHpCpF2yoOHYKQIEwD",
-                    "artist_uri": "spotify:artist:36QJpDe2go2KgaRleHCDTp",
-                    "track_name": "Rock And Roll",
-                    "album_uri": "spotify:album:44Ig8dzqOkvkGDzaUof9lK",
-                    "duration_ms": 220560,
-                    "album_name": "Led Zeppelin IV"
-                },
-                {
-                    "pos": 13,
+                    "pos": 8,
                     "artist_name": "The Clash",
                     "track_uri": "spotify:track:39shmbIHICJ2Wxnk1fPSdz",
                     "artist_uri": "spotify:artist:3RGLhK1IP9jnYFH4BRFJBS",
@@ -1444,461 +2164,120 @@
                     "album_name": "Combat Rock"
                 },
                 {
-                    "pos": 15,
-                    "artist_name": "AC/DC",
-                    "track_uri": "spotify:track:08mG3Y1vljYA6bvDt4Wqkj",
-                    "artist_uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un",
-                    "track_name": "Back In Black",
-                    "album_uri": "spotify:album:6mUdeDZCsExyJLMdAfDuwh",
-                    "duration_ms": 255493,
-                    "album_name": "Back In Black"
+                    "pos": 9,
+                    "artist_name": "Toto",
+                    "track_uri": "spotify:track:2374M0fQpWi3dLnB54qaLX",
+                    "artist_uri": "spotify:artist:0PFtn5NtBbbUNbU9EAmIWF",
+                    "track_name": "Africa",
+                    "album_uri": "spotify:album:62U7xIHcID94o20Of5ea4D",
+                    "duration_ms": 295893,
+                    "album_name": "Toto IV"
+                },
+                {
+                    "pos": 12,
+                    "artist_name": "The Smiths",
+                    "track_uri": "spotify:track:0WQiDwKJclirSYG9v5tayI",
+                    "artist_uri": "spotify:artist:3yY2gUcIsjMr8hjo51PoJ8",
+                    "track_name": "There Is A Light That Never Goes Out - 2011 Remastered Version",
+                    "album_uri": "spotify:album:5Y0p2XCgRRIjna91aQE8q7",
+                    "duration_ms": 244586,
+                    "album_name": "The Queen Is Dead"
+                },
+                {
+                    "pos": 14,
+                    "artist_name": "Raydar",
+                    "track_uri": "spotify:track:6uzLvZZOFLb8P2CDw85Pum",
+                    "artist_uri": "spotify:artist:42cxe5wNs7fE5nRbEt00Xe",
+                    "track_name": "Night Walkers",
+                    "album_uri": "spotify:album:4SY3WKYrm8vO7yhZmYenaY",
+                    "duration_ms": 336410,
+                    "album_name": "Neon Graffiti"
+                },
+                {
+                    "pos": 16,
+                    "artist_name": "The B-52's",
+                    "track_uri": "spotify:track:6drX65YeJBIgOWotVI1o8k",
+                    "artist_uri": "spotify:artist:3gdbcIdNypBsYNu3iiCjtN",
+                    "track_name": "Private Idaho (Live! 8-24-1979)",
+                    "album_uri": "spotify:album:7LI60HZMzp3bWBiUHxA7Wq",
+                    "duration_ms": 232159,
+                    "album_name": "Live! 8-24-1979"
+                },
+                {
+                    "pos": 17,
+                    "artist_name": "DEVO",
+                    "track_uri": "spotify:track:5FzBxhIsZBFXDTVGWtV4IQ",
+                    "artist_uri": "spotify:artist:0UKfenbZb15sqhfPC6zbt3",
+                    "track_name": "[I Can't Get No] Satisfaction",
+                    "album_uri": "spotify:album:1u2Qni8cVRptDTaA00fmBC",
+                    "duration_ms": 160093,
+                    "album_name": "Q: Are We Not Men? A: We Are Devo!"
                 }
             ],
-            "num_edits": 12,
-            "duration_ms": 41780847,
-            "num_artists": 76,
-            "description": "I needed to be alive when these bands were"
+            "num_edits": 16,
+            "duration_ms": 10276551,
+            "num_artists": 32
         },
         "options": {
             "binary": {
                 "permutation": [
                     0,
-                    4,
-                    1,
-                    2,
-                    3,
                     8,
-                    9,
-                    6,
+                    1,
+                    3,
                     7,
-                    5
+                    2,
+                    9,
+                    4,
+                    5,
+                    6
                 ],
                 "distance": 2
             },
             "circle": {
                 "permutation": [
                     0,
-                    4,
-                    1,
-                    2,
-                    3,
                     8,
-                    9,
                     7,
-                    6,
-                    5
+                    2,
+                    9,
+                    1,
+                    3,
+                    4,
+                    5,
+                    6
                 ],
-                "distance": 40.585098497955826
+                "distance": 29.384293128197097
             },
             "tiv": {
                 "permutation": [
                     0,
-                    4,
-                    7,
-                    9,
+                    8,
+                    5,
                     6,
-                    8,
-                    3,
-                    2,
-                    1,
-                    5
-                ],
-                "distance": 0.48028289544606656
-            },
-            "ph": {
-                "permutation": [
-                    0,
-                    5,
-                    7,
-                    1,
-                    9,
-                    8,
-                    6,
-                    2,
                     4,
-                    3
-                ],
-                "distance": 2.5031345736290462
-            }
-        }
-    },
-    {
-        "uris": [
-            "spotify:track:1krBKWusytTAT2jNWJGA7m",
-            "spotify:track:3wowK80ug94yqlI86A9Ej9",
-            "spotify:track:6lZPeilkLvVTkZKYLjRI9j",
-            "spotify:track:2RmDeLEqaI5fDh9rAI0KFN",
-            "spotify:track:6F5C991wdEl3BFkA52WPdQ",
-            "spotify:track:2zK03USM7rsehtcYz8J0dH",
-            "spotify:track:3bEftA2uAg40o0eW8gzOu8",
-            "spotify:track:3T2jsPUy9Bm5GIM9Wrv0mS",
-            "spotify:track:6bfKh2xikqECjcgirZKx9k",
-            "spotify:track:7cDhGYa0qoWpmsBG5qHoXV"
-        ],
-        "playlist": {
-            "name": "recovery",
-            "collaborative": "false",
-            "pid": 659277,
-            "modified_at": 1475366400,
-            "num_tracks": 63,
-            "num_albums": 61,
-            "num_followers": 46,
-            "tracks": [
-                {
-                    "pos": 0,
-                    "artist_name": "Kraftwerk",
-                    "track_uri": "spotify:track:1krBKWusytTAT2jNWJGA7m",
-                    "artist_uri": "spotify:artist:0dmPX6ovclgOy8WWJaFEUU",
-                    "track_name": "Neon Lights - 2009 Remastered Version",
-                    "album_uri": "spotify:album:3eyz60xEK5dGEeZF1JJSi9",
-                    "duration_ms": 532533,
-                    "album_name": "The Man Machine"
-                },
-                {
-                    "pos": 1,
-                    "artist_name": "Talk Talk",
-                    "track_uri": "spotify:track:3wowK80ug94yqlI86A9Ej9",
-                    "artist_uri": "spotify:artist:7Fo8TAyGJr4VmhE68QamMf",
-                    "track_name": "Happiness Is Easy - 1997 Remastered Version",
-                    "album_uri": "spotify:album:70V1kL7w7Q9pDU4I6zDjYE",
-                    "duration_ms": 390693,
-                    "album_name": "The Colour Of Spring"
-                },
-                {
-                    "pos": 3,
-                    "artist_name": "Djuma Soundsystem",
-                    "track_uri": "spotify:track:6lZPeilkLvVTkZKYLjRI9j",
-                    "artist_uri": "spotify:artist:5PcCFmsEQz3wWeZ8q5amGF",
-                    "track_name": "Cherimoya",
-                    "album_uri": "spotify:album:2VGTdYb2F2TsNq1YC3yUA5",
-                    "duration_ms": 375403,
-                    "album_name": "Nordic Nights / Cherimoya"
-                },
-                {
-                    "pos": 7,
-                    "artist_name": "Karaoke - Ameritz",
-                    "track_uri": "spotify:track:2RmDeLEqaI5fDh9rAI0KFN",
-                    "artist_uri": "spotify:artist:5aEMARkjW3SYYnGLTLgCks",
-                    "track_name": "Cry (In The Style Of Godley & Cr\u00e8me)",
-                    "album_uri": "spotify:album:1IMxby1wdU9OzcbXwH2jrR",
-                    "duration_ms": 229626,
-                    "album_name": "Karaoke - Rock For Boys Vol.29"
-                },
-                {
-                    "pos": 8,
-                    "artist_name": "Depeche Mode",
-                    "track_uri": "spotify:track:6F5C991wdEl3BFkA52WPdQ",
-                    "artist_uri": "spotify:artist:762310PdDnwsDxAQxzQkfX",
-                    "track_name": "Any Second Now (Voices) - Altered",
-                    "album_uri": "spotify:album:3GgsS5UJbjmtfnOmwzWf5S",
-                    "duration_ms": 342533,
-                    "album_name": "Just Can't Get Enough"
-                },
-                {
-                    "pos": 9,
-                    "artist_name": "Ciscoe",
-                    "track_uri": "spotify:track:2zK03USM7rsehtcYz8J0dH",
-                    "artist_uri": "spotify:artist:5oP9bSSc0e2KOweDB2PF5D",
-                    "track_name": "Elevators - Original Mix",
-                    "album_uri": "spotify:album:5tyXEdlJv3xzOg8eWcUMLO",
-                    "duration_ms": 281515,
-                    "album_name": "Sound of Norway"
-                },
-                {
-                    "pos": 11,
-                    "artist_name": "Wolfram",
-                    "track_uri": "spotify:track:3bEftA2uAg40o0eW8gzOu8",
-                    "artist_uri": "spotify:artist:1oBQPdm35NiPSEWIx8Yl24",
-                    "track_name": "Thing Called Love - Legowelt Special Remix Dub",
-                    "album_uri": "spotify:album:3QUXUIC9YHFcbKdHvvCJrS",
-                    "duration_ms": 383231,
-                    "album_name": "Out Of Control Remixes"
-                },
-                {
-                    "pos": 15,
-                    "artist_name": "Laurie Anderson",
-                    "track_uri": "spotify:track:3T2jsPUy9Bm5GIM9Wrv0mS",
-                    "artist_uri": "spotify:artist:5hqB3Fxgin9YGYa0mIGf1G",
-                    "track_name": "Excellent Birds",
-                    "album_uri": "spotify:album:5n3H377w7raCOYV1vr9vUN",
-                    "duration_ms": 197666,
-                    "album_name": "Mister Heartbreak"
-                },
-                {
-                    "pos": 16,
-                    "artist_name": "Phil Collins",
-                    "track_uri": "spotify:track:6bfKh2xikqECjcgirZKx9k",
-                    "artist_uri": "spotify:artist:4lxfqrEsLX6N1N4OCSkILp",
-                    "track_name": "I'm Not Moving - 2015 Remastered",
-                    "album_uri": "spotify:album:1cM3r0WQZWNkCpEbmFjLln",
-                    "duration_ms": 155373,
-                    "album_name": "Face Value (Deluxe Editon)"
-                },
-                {
-                    "pos": 17,
-                    "artist_name": "Tornado Wallace",
-                    "track_uri": "spotify:track:7cDhGYa0qoWpmsBG5qHoXV",
-                    "artist_uri": "spotify:artist:6GNWPphcJ5CtIwCJVV1lLT",
-                    "track_name": "Circadia - Original Mix",
-                    "album_uri": "spotify:album:1CWNEqTNdf1JagxM71Qz1y",
-                    "duration_ms": 373559,
-                    "album_name": "Circadia"
-                }
-            ],
-            "num_edits": 21,
-            "duration_ms": 17936427,
-            "num_artists": 57
-        },
-        "options": {
-            "binary": {
-                "permutation": [
-                    0,
                     9,
+                    7,
                     1,
-                    2,
                     3,
-                    4,
-                    8,
-                    7,
-                    5,
-                    6
-                ],
-                "distance": 5
-            },
-            "circle": {
-                "permutation": [
-                    0,
-                    9,
-                    1,
-                    5,
-                    7,
-                    8,
-                    2,
-                    3,
-                    4,
-                    6
-                ],
-                "distance": 52.56652654681745
-            },
-            "tiv": {
-                "permutation": [
-                    0,
-                    6,
-                    9,
-                    5,
-                    1,
-                    7,
-                    8,
-                    3,
-                    2,
-                    4
-                ],
-                "distance": 0.6207765205103122
-            },
-            "ph": {
-                "permutation": [
-                    0,
-                    8,
-                    9,
-                    3,
-                    6,
-                    5,
-                    4,
-                    7,
-                    2,
-                    1
-                ],
-                "distance": 2.198854486769668
-            }
-        }
-    },
-    {
-        "uris": [
-            "spotify:track:1dhMAFlZuAuC9oDtYRyGIn",
-            "spotify:track:0smEJErWGZmiBrFJFgzLVC",
-            "spotify:track:4xT561O18FsUFevOYoPFXX",
-            "spotify:track:6YzUajhB4C0f0RStLyvZgO",
-            "spotify:track:3fy6lroijus9i9daiykUgs",
-            "spotify:track:1YQWosTIljIvxAgHWTp7KP",
-            "spotify:track:3ZhseUU4nUeaxeMfGGb2SU",
-            "spotify:track:5g9M2qnmE7tvC8wBU9rRhi",
-            "spotify:track:2JOEPbuwVf0nafGnMSVEhH",
-            "spotify:track:5NokPZ0EoOl3t5SHKy2zA3"
-        ],
-        "playlist": {
-            "name": "JAZZ",
-            "collaborative": "false",
-            "pid": 115374,
-            "modified_at": 1507075200,
-            "num_tracks": 96,
-            "num_albums": 91,
-            "num_followers": 105,
-            "tracks": [
-                {
-                    "pos": 5,
-                    "artist_name": "Pete Levin",
-                    "track_uri": "spotify:track:1dhMAFlZuAuC9oDtYRyGIn",
-                    "artist_uri": "spotify:artist:29LTr6jvpwHAul8510Tcor",
-                    "track_name": "First Gymnopedie",
-                    "album_uri": "spotify:album:5ru04jPblzYWXy4JiLSDPo",
-                    "duration_ms": 363666,
-                    "album_name": "Deacon Blues"
-                },
-                {
-                    "pos": 9,
-                    "artist_name": "Roy Ayers",
-                    "track_uri": "spotify:track:0smEJErWGZmiBrFJFgzLVC",
-                    "artist_uri": "spotify:artist:6R9Mv0bgGE4Tqxna1q5Mrj",
-                    "track_name": "Searchin'",
-                    "album_uri": "spotify:album:23utIafht9dM5qormiVLjg",
-                    "duration_ms": 746466,
-                    "album_name": "The Essential Groove - Live"
-                },
-                {
-                    "pos": 14,
-                    "artist_name": "Zo!",
-                    "track_uri": "spotify:track:4xT561O18FsUFevOYoPFXX",
-                    "artist_uri": "spotify:artist:0XoDNlIZvfQP47lyLBVIsz",
-                    "track_name": "For Leslie",
-                    "album_uri": "spotify:album:1ssu0v4LiGz7j3y2BUaj2j",
-                    "duration_ms": 122200,
-                    "album_name": "SunStorm"
-                },
-                {
-                    "pos": 15,
-                    "artist_name": "Zo!",
-                    "track_uri": "spotify:track:6YzUajhB4C0f0RStLyvZgO",
-                    "artist_uri": "spotify:artist:0XoDNlIZvfQP47lyLBVIsz",
-                    "track_name": "Detroit District (Pts. I & II)",
-                    "album_uri": "spotify:album:1H242Msp9MA4WfAjJq1Pf1",
-                    "duration_ms": 350413,
-                    "album_name": "Freelance"
-                },
-                {
-                    "pos": 16,
-                    "artist_name": "Chris Botti",
-                    "track_uri": "spotify:track:3fy6lroijus9i9daiykUgs",
-                    "artist_uri": "spotify:artist:3eFo5fMv53RYZBYlvT5Z6a",
-                    "track_name": "Good Morning Heartache",
-                    "album_uri": "spotify:album:7AufJYxxSwzzTvLpTtGQl1",
-                    "duration_ms": 373066,
-                    "album_name": "To Love Again - Holiday Gift Pack"
-                },
-                {
-                    "pos": 21,
-                    "artist_name": "The Dave Brubeck Quartet",
-                    "track_uri": "spotify:track:1YQWosTIljIvxAgHWTp7KP",
-                    "artist_uri": "spotify:artist:4iRZAbYvBqnxrbs6K25aJ7",
-                    "track_name": "Take Five",
-                    "album_uri": "spotify:album:0nTTEAhCZsbbeplyDMIFuA",
-                    "duration_ms": 324133,
-                    "album_name": "Time Out"
-                },
-                {
-                    "pos": 28,
-                    "artist_name": "The James Colah Project",
-                    "track_uri": "spotify:track:3ZhseUU4nUeaxeMfGGb2SU",
-                    "artist_uri": "spotify:artist:2Iz8q4WIG490pGN5G1baR0",
-                    "track_name": "Touched by the light",
-                    "album_uri": "spotify:album:7qEObNLIjOYoZVJD9zYs4v",
-                    "duration_ms": 228488,
-                    "album_name": "Touched by the light"
-                },
-                {
-                    "pos": 29,
-                    "artist_name": "Joe Johnson",
-                    "track_uri": "spotify:track:5g9M2qnmE7tvC8wBU9rRhi",
-                    "artist_uri": "spotify:artist:0TJI5emTibKfUGlhM6tmHj",
-                    "track_name": "Guess Who Loves You More",
-                    "album_uri": "spotify:album:7mrCnXEXiYfYIxpl78raSU",
-                    "duration_ms": 393680,
-                    "album_name": "The Afterparty"
-                },
-                {
-                    "pos": 30,
-                    "artist_name": "John Coltrane",
-                    "track_uri": "spotify:track:2JOEPbuwVf0nafGnMSVEhH",
-                    "artist_uri": "spotify:artist:2hGh5VOeeqimQFxqXvfCUf",
-                    "track_name": "My Favorite Things",
-                    "album_uri": "spotify:album:3i7sNgNRwyGQmNP0CPuOM0",
-                    "duration_ms": 824133,
-                    "album_name": "My Favorite Things"
-                },
-                {
-                    "pos": 31,
-                    "artist_name": "George Benson",
-                    "track_uri": "spotify:track:5NokPZ0EoOl3t5SHKy2zA3",
-                    "artist_uri": "spotify:artist:4N8BwYTEC6XqykGvXXlmfv",
-                    "track_name": "Take Five",
-                    "album_uri": "spotify:album:4eMzBRipkToMt5xYEbFrsE",
-                    "duration_ms": 428000,
-                    "album_name": "Bad Benson"
-                }
-            ],
-            "num_edits": 75,
-            "duration_ms": 30704046,
-            "num_artists": 77
-        },
-        "options": {
-            "binary": {
-                "permutation": [
-                    0,
-                    6,
-                    1,
-                    4,
-                    7,
-                    3,
-                    9,
-                    5,
-                    8,
                     2
                 ],
-                "distance": 3
-            },
-            "circle": {
-                "permutation": [
-                    0,
-                    1,
-                    4,
-                    7,
-                    3,
-                    6,
-                    9,
-                    5,
-                    2,
-                    8
-                ],
-                "distance": 43.652308535665625
-            },
-            "tiv": {
-                "permutation": [
-                    0,
-                    5,
-                    9,
-                    6,
-                    3,
-                    7,
-                    1,
-                    4,
-                    2,
-                    8
-                ],
-                "distance": 0.4799459310086429
+                "distance": 0.48913253186912375
             },
             "ph": {
                 "permutation": [
                     0,
-                    7,
-                    2,
-                    3,
-                    8,
-                    5,
                     1,
-                    6,
+                    8,
                     4,
-                    9
+                    6,
+                    3,
+                    5,
+                    9,
+                    7,
+                    2
                 ],
-                "distance": 2.0177410933100637
+                "distance": 2.8694965409542994
             }
         }
     }

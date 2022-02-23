@@ -24,17 +24,17 @@ final message.
 📢 Please read the following instructions carefully
 and **don't reload the page** until you are finished, or you will lose your progress.
 
-📃 You will be presented with four different playlists that contain the same music tracks, but in different order.
+📃 You will be presented with four different playlists that contain the same 10 music tracks, but in different order.
 **You don't need to listen to each track for the full duration**, please listen to the tracks **just enough** to glimpse each track's key.
 
-🎯 There are 9 playlists in total, your overall progress is indicated by the progress bar under these
-instructions.
+🎯 There are 12 playlists in total, each containing 4 different permutations of the same 10 tracks. Each track has a letter assigned, from 'A' to 'J'.
 
-⏳ Please **don't think too much** about the answers or spend too much time on each track, answer intuitively by
+⏳ Your overall progress is indicated by the progress bar under these
+instructions. Please **don't think too much** about the answers or spend too much time on each track, answer intuitively by
 adjusting the rating to that which feels right after familiarizing yourself with every track from a playlist.
 Don't forget that there are no wrong answers.
 
-⭐ For each playlist,
+⭐ For each pair of songs in every playlist,
 please assess **the harmonicity of each transition**.
 Your task is to judge if every songs in a playlist would be mixed well with the song below regarding harmonicity.
 In case you doubt, we recommend to play both songs simultaneously.
