@@ -11,7 +11,7 @@ import numpy as np
 
 DESCRIPTION = """
 
-👋 Welcome! This experiment should take around 40 minutes of your time.
+👋 Welcome! This experiment should take around 2 hours of your time.
 
 📢 Please only perform this experiment in case you have a somewhat clear idea on what harmony is.
 
@@ -24,10 +24,10 @@ final message.
 📢 Please read the following instructions carefully
 and **don't reload the page** until you are finished, or you will lose your progress.
 
-📃 You will be presented with four different playlists that contain the same music tracks.
+📃 You will be presented with four different playlists that contain the same music tracks, but in different order.
 **You don't need to listen to each track for the full duration**, please listen to the tracks **just enough** to glimpse each track's key.
 
-🎯 There are 4 playlists in total, your overall progress is indicated by the progress bar under these
+🎯 There are 9 playlists in total, your overall progress is indicated by the progress bar under these
 instructions.
 
 ⏳ Please **don't think too much** about the answers or spend too much time on each track, answer intuitively by
@@ -35,12 +35,12 @@ adjusting the rating to that which feels right after familiarizing yourself with
 Don't forget that there are no wrong answers.
 
 ⭐ For each playlist,
-please assess **the harmonicity of each transitions**.
-Your task is to judge if songs in a playlist would mix well with the previous song. In case you doubt if a transition is harmonic,
-we recommend to play both songs simultaneously.
+please assess **the harmonicity of each transition**.
+Your task is to judge if every songs in a playlist would be mixed well with the song below regarding harmonicity.
+In case you doubt, we recommend to play both songs simultaneously.
 
 Overall:
-### Mark the transitions that sound harmonic to you:
+### Mark the transitions that sound harmonically bad to you, then Submit:
 """
 
 END_MESSAGE = """
@@ -161,7 +161,7 @@ def main():
                                     colordict[color2] = colordict[color]
                             #display the transition with the assigned color and the letter aliases
                             st.markdown('<span style="font-size:36px;background-color: '+colordict[color]+'">'+color+'</span>', unsafe_allow_html=True)
-                            radio = st.radio(label = 'Harmonic compatibility of the track above with the track below is :', options = ['good','bad'], key=str(i)+str(k))
+                            radio = st.radio(label = 'Harmonic compatibility between the track above with the track below is :', options = ['good','bad'], key=str(i)+str(k))
                             if radio == 'bad':
                                 st.session_state['results'][progress, k, i] = 0
                             else:
