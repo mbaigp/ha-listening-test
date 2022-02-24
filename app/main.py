@@ -17,21 +17,19 @@ DESCRIPTION = """
 ℹ️ This experiment is completely anonymous, and all the data collected will be used for research purposes. You can
 stop participating in this experiment at any moment without submitting the data.
 
-📃 You will be presented with four different playlists that contain the same 10 music tracks, each with a corresponding letter from 'A' to 'J' assigned, but presented in a slightly different order in each playlist.
+📃 You will be presented with four different playlists that contain the same 10 music tracks, each with a corresponding letter from 'A' to 'J' assigned, but presented in a slightly different order.
 **You don't need to listen to each track for the full duration**, please listen to the tracks **just enough** to glimpse each track's key.
 
 🎯 There are 12 experiments in total respresenting different musical genres, so you can refresh the page until you are comfortable with the actual playlist.
 
 ⭐ For each pair of songs in every playlist,
-please assess **the harmonicity of each transition**.
-
-Your task is to judge if every song in a playlist would be mixed well with the song below regarding harmonicity.
+please assess **the general quality of the transitions**.
 
 In case you doubt, we recommend to play both songs simultaneously.
 
 Overall:
 
-## Mark the transitions that sound harmonically bad to you, then submit:
+## Mark the transitions that sound weird to you, then submit:
 """
 
 END_MESSAGE = """
@@ -43,16 +41,19 @@ LETTERS = ['A', 'B', 'C', 'D']
 def save_respose(df: pd.DataFrame) -> None:
     print(df)
     aws_path = st.secrets['AWS_PATH']
+    #we encode the name of the last playlist in the CSV path
     aws_path += str(datetime.now())+'_'+st.session_state['playlist_name']+'.csv'
     df.to_csv(aws_path, storage_options={'anon': False})
 
 def set_finish():
+    #we read the value of each button and write in the results np.array:
     for i in range(st.session_state['num_methods']):
         for k in range(st.session_state['num_transitions']):
-            if (st.session_state[str(i)+str(k)]) == 'bad harmonic compatibility':
+            if (st.session_state[str(i)+str(k)]) == 'sounds bad':
                 st.session_state['results'][st.session_state['progress'], k, i] = 0
-
+    #advance in the progress bar
     st.session_state['progress'] += 1
+    #reshape 3D results array to 2D for dataframe-> CSV
     results = st.session_state['results']
     results = np.reshape(results, (-1, 4))
     df = pd.DataFrame(results)
@@ -75,8 +76,8 @@ def main():
     with open('listening_selection_data_10.json') as fp:
         data_all = json.load(fp)
 
+    num_pages = 1 #change this if you want to evaluate more than one page per run
     # infer shape of the results 3D-array from the data json
-    num_pages = 1
     num_methods = len(data_all[0]['options'])
     num_transitions = len(list(data_all[0]['options'].values())[0]['permutation'])-1
 
@@ -94,10 +95,7 @@ def main():
     progress = st.session_state['progress']
 
     st.progress(progress / num_pages)
-    #st.write('num_methods '+str(num_methods))
-    #st.write('num_transitions '+str(num_transitions))
 
-    #st.markdown()
     if progress < num_pages:
         #here we randomly pick a playlist
         pick = np.random.randint(0, len(data_all))
@@ -166,9 +164,8 @@ def main():
                                     colordict[color2] = colordict[color]
                             #display the transition with the assigned color and the letter aliases
                             st.markdown('<span style="font-size:36px;background-color: '+colordict[color]+'">'+color+'</span>', unsafe_allow_html=True)
-                            radio = st.radio(label = 'The track above and the track below have :', options = ['good harmonic compatibility','bad harmonic compatibility'], key=str(i)+str(k))
-                            #st.write('i: '+str(i))
-                            #fst.write('k: '+str(k))
+                            radio = st.radio(label = 'Going from the track above to the track below:', options = ['sounds good','sounds bad'], key=str(i)+str(k))
+
 
             submitted = st.form_submit_button(on_click=set_finish)
 
