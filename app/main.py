@@ -10,7 +10,6 @@ import streamlit as st
 import numpy as np
 
 DESCRIPTION = """
-
 👋 Welcome! This experiment should take around 20 minutes of your time.
 
 📢 Please only perform this experiment in case you have a somewhat clear idea on what harmony is.
@@ -25,10 +24,13 @@ stop participating in this experiment at any moment without submitting the data.
 
 ⭐ For each pair of songs in every playlist,
 please assess **the harmonicity of each transition**.
+
 Your task is to judge if every song in a playlist would be mixed well with the song below regarding harmonicity.
+
 In case you doubt, we recommend to play both songs simultaneously.
 
 Overall:
+
 ## Mark the transitions that sound harmonically bad to you, then submit:
 """
 
@@ -45,6 +47,11 @@ def save_respose(df: pd.DataFrame) -> None:
     df.to_csv(aws_path, storage_options={'anon': False})
 
 def set_finish():
+    for i in range(st.session_state['num_methods']):
+        for k in range(st.session_state['num_transitions']):
+            if (st.session_state[str(i)+str(k)]) == 'bad harmonic compatibility':
+                st.session_state['results'][st.session_state['progress'], k, i] = 0
+
     st.session_state['progress'] += 1
     results = st.session_state['results']
     results = np.reshape(results, (-1, 4))
@@ -54,11 +61,6 @@ def set_finish():
         df = df.rename(columns={column:key})
     save_respose(df)
 
-def handle_click(k,i):
-    print('k')
-    print(k)
-    print('i')
-    print(i)
 def main():
     #login into spotify API
     cid = st.secrets['SPOTIPY_CLIENT_ID']
@@ -81,6 +83,10 @@ def main():
     #instantiate global variables (not re-run every interaction)
     if 'num_pages' not in st.session_state:
         st.session_state['num_pages'] = num_pages
+    if 'num_methods' not in st.session_state:
+        st.session_state['num_methods'] = num_methods
+    if 'num_transitions' not in st.session_state:
+        st.session_state['num_transitions'] = num_transitions
     if 'progress' not in st.session_state:
         st.session_state['progress'] = 0
     if 'results' not in st.session_state:
@@ -88,6 +94,9 @@ def main():
     progress = st.session_state['progress']
 
     st.progress(progress / num_pages)
+    #st.write('num_methods '+str(num_methods))
+    #st.write('num_transitions '+str(num_transitions))
+
     #st.markdown()
     if progress < num_pages:
         #here we randomly pick a playlist
@@ -114,8 +123,6 @@ def main():
             random.shuffle(randseed)
             song_keys=[abc[i] for i in randseed]
 
-
-
             #download the audio
             audio = []
             for uri in data['uris']:
@@ -132,8 +139,7 @@ def main():
             '#EE5C42', '#CD661D', '#ED9121', '#FF9912', '#EECFA1', '#00CD00']
 
             bcolorlist = colorlist.copy()
-            _ks = []
-            _is = []
+
             for i, (column, item) in enumerate(zip(columns,items)):
                 with column:
                     st.markdown(f'### Playlist #{i+1}')
@@ -161,13 +167,11 @@ def main():
                             #display the transition with the assigned color and the letter aliases
                             st.markdown('<span style="font-size:36px;background-color: '+colordict[color]+'">'+color+'</span>', unsafe_allow_html=True)
                             radio = st.radio(label = 'The track above and the track below have :', options = ['good harmonic compatibility','bad harmonic compatibility'], key=str(i)+str(k))
-                            if radio == 'bad harmonic compatibility':
-                                st.session_state['results'][progress, k, i] = 0
-                            else:
-                                st.session_state['results'][progress, k, i] = 1
-            submitted = st.form_submit_button("Submit")
-            if submitted:
-                set_finish()
+                            #st.write('i: '+str(i))
+                            #fst.write('k: '+str(k))
+
+            submitted = st.form_submit_button(on_click=set_finish)
+
     else:
         st.balloons()
         st.markdown(END_MESSAGE)
