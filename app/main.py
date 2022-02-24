@@ -14,10 +14,10 @@ DESCRIPTION = """
 
 📢 Please only perform this experiment in case you have a somewhat clear idea on what harmony is.
 
-ℹ️ This experiment is completely anonymous, and all the data collected will be used for research purposes. You can
-stop participating in this experiment at any moment without submitting the data.
+ℹ️ This experiment is completely anonymous, and all the data collected will be used for research purposes. You can stop participating in this experiment at any moment without submitting the data.
 
 📃 You will be presented with four different playlists that contain the same 10 music tracks, each with a corresponding letter from 'A' to 'J' assigned, but presented in a slightly different order.
+
 **You don't need to listen to each track for the full duration**, please listen to the tracks **just enough** to glimpse each track's key.
 
 🎯 There are 12 experiments in total respresenting different musical genres, so you can refresh the page until you are comfortable with the actual playlist.
