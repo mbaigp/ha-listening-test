@@ -23,12 +23,9 @@ stop participating in this experiment at any moment without submitting the data.
 
 🎯 There are 12 experiments in total respresenting different musical genres, so you can refresh the page until you are comfortable with the actual playlist.
 
-⏳ Please **don't think too much** about the answers or spend too much time on each track, answer intuitively by
-adjusting the rating to that which feels right after familiarizing yourself with every track from a playlist.
-
 ⭐ For each pair of songs in every playlist,
 please assess **the harmonicity of each transition**.
-Your task is to judge if every songs in a playlist would be mixed well with the song below regarding harmonicity.
+Your task is to judge if every song in a playlist would be mixed well with the song below regarding harmonicity.
 In case you doubt, we recommend to play both songs simultaneously.
 
 Overall:
