@@ -23,13 +23,13 @@ stop participating in this experiment at any moment without submitting the data.
 🎯 There are 12 experiments in total respresenting different musical genres, so you can refresh the page until you are comfortable with the actual playlist.
 
 ⭐ For each pair of songs in every playlist,
-please assess **the general quality of the transitions**.
+please assess **the harmonic quality of the transitions**.
 
 In case you doubt, we recommend to play both songs simultaneously.
 
 Overall:
 
-## Mark the transitions that sound weird to you, then submit:
+## Mark the transitions that sound inharmonic to you, then submit:
 """
 
 END_MESSAGE = """
@@ -49,7 +49,7 @@ def set_finish():
     #we read the value of each button and write in the results np.array:
     for i in range(st.session_state['num_methods']):
         for k in range(st.session_state['num_transitions']):
-            if (st.session_state[str(i)+str(k)]) == 'sounds bad':
+            if (st.session_state[str(i)+str(k)]) == 'bad harmonic compatibility':
                 st.session_state['results'][st.session_state['progress'], k, i] = 0
     #advance in the progress bar
     st.session_state['progress'] += 1
@@ -164,7 +164,7 @@ def main():
                                     colordict[color2] = colordict[color]
                             #display the transition with the assigned color and the letter aliases
                             st.markdown('<span style="font-size:36px;background-color: '+colordict[color]+'">'+color+'</span>', unsafe_allow_html=True)
-                            radio = st.radio(label = 'Going from the track above to the track below:', options = ['sounds good','sounds bad'], key=str(i)+str(k))
+                            radio = st.radio(label = 'The track above and the track below have :', options = ['good harmonic compatibility','bad harmonic compatibility'], key=str(i)+str(k))
 
 
             submitted = st.form_submit_button(on_click=set_finish)
