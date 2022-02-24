@@ -44,18 +44,21 @@ def save_respose(df: pd.DataFrame) -> None:
     aws_path += str(datetime.now())+'_'+st.session_state['playlist_name']+'.csv'
     df.to_csv(aws_path, storage_options={'anon': False})
 
-
-def save_answer():
+def set_finish():
     st.session_state['progress'] += 1
-    if st.session_state['progress'] == st.session_state['num_pages']:
-        results = st.session_state['results']
-        results = np.reshape(results, (-1, 4))
-        df = pd.DataFrame(results)
-        df.sort_index(inplace=True)
-        for column, key in zip(df.columns, st.session_state['keys']):
-            df = df.rename(columns={column:key})
-        save_respose(df)
+    results = st.session_state['results']
+    results = np.reshape(results, (-1, 4))
+    df = pd.DataFrame(results)
+    df.sort_index(inplace=True)
+    for column, key in zip(df.columns, st.session_state['keys']):
+        df = df.rename(columns={column:key})
+    save_respose(df)
 
+def handle_click(k,i):
+    print('k')
+    print(k)
+    print('i')
+    print(i)
 def main():
     #login into spotify API
     cid = st.secrets['SPOTIPY_CLIENT_ID']
@@ -112,6 +115,7 @@ def main():
             song_keys=[abc[i] for i in randseed]
 
 
+
             #download the audio
             audio = []
             for uri in data['uris']:
@@ -128,6 +132,8 @@ def main():
             '#EE5C42', '#CD661D', '#ED9121', '#FF9912', '#EECFA1', '#00CD00']
 
             bcolorlist = colorlist.copy()
+            _ks = []
+            _is = []
             for i, (column, item) in enumerate(zip(columns,items)):
                 with column:
                     st.markdown(f'### Playlist #{i+1}')
@@ -159,7 +165,9 @@ def main():
                                 st.session_state['results'][progress, k, i] = 0
                             else:
                                 st.session_state['results'][progress, k, i] = 1
-            st.form_submit_button(on_click=save_answer)
+            submitted = st.form_submit_button("Submit")
+            if submitted:
+                set_finish()
     else:
         st.balloons()
         st.markdown(END_MESSAGE)
