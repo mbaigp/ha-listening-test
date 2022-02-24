@@ -11,28 +11,20 @@ import numpy as np
 
 DESCRIPTION = """
 
-👋 Welcome! This experiment should take around 2 hours of your time.
+👋 Welcome! This experiment should take around 20 minutes of your time.
 
 📢 Please only perform this experiment in case you have a somewhat clear idea on what harmony is.
 
-⚠ We recommend using Firefox or Chrome on a device with a big screen.
-
 ℹ️ This experiment is completely anonymous, and all the data collected will be used for research purposes. You can
-stop participating in this experiment at any moment and there will be no data submitted as long as you don't see the
-final message.
+stop participating in this experiment at any moment without submitting the data.
 
-📢 Please read the following instructions carefully
-and **don't reload the page** until you are finished, or you will lose your progress.
-
-📃 You will be presented with four different playlists that contain the same 10 music tracks, but in different order.
+📃 You will be presented with four different playlists that contain the same 10 music tracks, each with a corresponding letter from 'A' to 'J' assigned, but presented in a slightly different order in each playlist.
 **You don't need to listen to each track for the full duration**, please listen to the tracks **just enough** to glimpse each track's key.
 
-🎯 There are 12 playlists in total, each containing 4 different permutations of the same 10 tracks. Each track has a letter assigned, from 'A' to 'J'.
+🎯 There are 12 experiments in total respresenting different musical genres, so you can refresh the page until you are comfortable with the actual playlist.
 
-⏳ Your overall progress is indicated by the progress bar under these
-instructions. Please **don't think too much** about the answers or spend too much time on each track, answer intuitively by
+⏳ Please **don't think too much** about the answers or spend too much time on each track, answer intuitively by
 adjusting the rating to that which feels right after familiarizing yourself with every track from a playlist.
-Don't forget that there are no wrong answers.
 
 ⭐ For each pair of songs in every playlist,
 please assess **the harmonicity of each transition**.
@@ -40,7 +32,7 @@ Your task is to judge if every songs in a playlist would be mixed well with the 
 In case you doubt, we recommend to play both songs simultaneously.
 
 Overall:
-### Mark the transitions that sound harmonically bad to you, then Submit:
+## Mark the transitions that sound harmonically bad to you, then submit:
 """
 
 END_MESSAGE = """
@@ -52,7 +44,7 @@ LETTERS = ['A', 'B', 'C', 'D']
 def save_respose(df: pd.DataFrame) -> None:
     print(df)
     aws_path = st.secrets['AWS_PATH']
-    aws_path += f'{datetime.now()}.csv'
+    aws_path += str(datetime.now())+'_'+st.session_state['playlist_name']+'.csv'
     df.to_csv(aws_path, storage_options={'anon': False})
 
 
@@ -82,7 +74,7 @@ def main():
         data_all = json.load(fp)
 
     # infer shape of the results 3D-array from the data json
-    num_pages = len(data_all)
+    num_pages = 1
     num_methods = len(data_all[0]['options'])
     num_transitions = len(list(data_all[0]['options'].values())[0]['permutation'])-1
 
@@ -96,17 +88,21 @@ def main():
     progress = st.session_state['progress']
 
     st.progress(progress / num_pages)
-
+    #st.markdown()
     if progress < num_pages:
-        data = data_all[progress]
+        #here we randomly pick a playlist
+        pick = np.random.randint(0, len(data_all))
+        data = data_all[np.random.randint(0, len(data_all))]
+        playlist_name = data['playlist']['name']
+        st.markdown('## Playlist: '+playlist_name)
+        if 'playlist_name' not in st.session_state:
+            st.session_state['playlist_name'] = playlist_name
         keys = data['options'].keys()
         if keys not in st.session_state:
             st.session_state['keys'] = keys
 
         with st.form(key='form', clear_on_submit=True):
-            #methods = data['options'].keys()
             columns = st.columns(num_methods)
-
             items={}
             for method in data['options']:
                 items[method]=data['options'][method]['permutation']
@@ -166,11 +162,7 @@ def main():
                                 st.session_state['results'][progress, k, i] = 0
                             else:
                                 st.session_state['results'][progress, k, i] = 1
-                            #st.write('i '+str(i)+' k: '+str(k))
-            submitted = st.form_submit_button("Submit")
-            if submitted:
-                save_answer()
-
+            st.form_submit_button(on_click=save_answer)
     else:
         st.balloons()
         st.markdown(END_MESSAGE)
