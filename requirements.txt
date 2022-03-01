@@ -5,4 +5,4 @@ toml==0.10.2
 tqdm==4.62.3
 spotipy==2.19.0
 requests==2.27.1
-boto3==1.21.10
+boto3
