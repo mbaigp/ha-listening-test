@@ -172,7 +172,7 @@ def main():
                             letterlist = letterlist.replace(",", "➡")
                             letterlist = 'Song sequence: '+letterlist
                             st.markdown(letterlist)
-                            st.markdown(item)
+                            #st.markdown(item)
                             for k,n in enumerate(items[item]):
                                 st.audio(audio[n])
                                 #avoid last track (no transition)
