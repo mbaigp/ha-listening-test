@@ -62,7 +62,9 @@ def set_finish():
     for key in st.session_state['keys']:
         for k in range(st.session_state['num_transitions']):
             results.append(
-            {"method": key, "transition_idx": k,
+            {"method": key,
+            "transition_idx": k,
+            "transition": st.session_state[key][k],
             "user": st.session_state['username'],
             "playlist": st.session_state['playlist'],
             "harmonicity": st.session_state[str(key)+str(k)].split(' ')[0]
@@ -125,6 +127,9 @@ def main():
                 keys = data['options'].keys()
                 if keys not in st.session_state:
                     st.session_state['keys'] = keys
+                for key in keys:
+                    if key not in st.session_state:
+                        st.session_state[key] = []
 
                 with st.form(key='form', clear_on_submit=True):
                     columns = st.columns(num_methods)
@@ -167,6 +172,7 @@ def main():
                             letterlist = letterlist.replace(",", "➡")
                             letterlist = 'Song sequence: '+letterlist
                             st.markdown(letterlist)
+                            st.markdown(item)
                             for k,n in enumerate(items[item]):
                                 st.audio(audio[n])
                                 #avoid last track (no transition)
@@ -174,6 +180,7 @@ def main():
                                     #assign a color to the transition
                                     from_song = song_keys[items[item][k]]
                                     to_song = song_keys[items[item][k+1]]
+                                    st.session_state[item].append(from_song+to_song)
                                     color = '└'+str(from_song)+'➡'+str(to_song)+'┐'
                                     color2 = '└'+str(to_song)+'➡'+str(from_song)+'┐'
                                     if color not in colordict:
