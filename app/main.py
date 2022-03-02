@@ -13,7 +13,7 @@ import boto3
 DESCRIPTION = """
 👋 Welcome! This experiment should take around 20 minutes of your time.
 
-📢 Please only perform this experiment in case you have a somewhat clear idea on what harmony is.
+📢 Only perform this experiment in case you have a somewhat clear idea on what harmony is.
 
 """
 
