@@ -16,6 +16,7 @@ pip install -r requirements.txt
 streamlit run app/main.py
 ```
 We recommend to deploy the app at [https://share.streamlit.io/](https://share.streamlit.io/).
+Keep in mind that you should add your Spotify API credentials in the `share.streamlit` configuration webpage.
 
 ## Saving results in AWS
 
