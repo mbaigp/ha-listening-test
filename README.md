@@ -6,9 +6,13 @@ pip install -r requirements.txt
 ```
 ## Prepare the data
 1.-Download the [Million Playlist Dataset](https://www.aicrowd.com/challenges/spotify-million-playlist-dataset-challenge)
+
 2.-Register to [Spotify API](https://developer.spotify.com/documentation/web-api/) and obtain credentials.
+
 3.-Run the notebook `spotify_data_preparation.ipynb`. This selects top-1000 playlists in terms of popularity of at least 20 tracks, with audio available, and downloads the audio previews to `/spotify_data/previews`.
+
 4.-Re-compute harmonic and tempo features `spoty_hfeats.json` and `spoty_hpcps.npy`(if desired) by using the `harmonic-feat-extractor` [repository](https://github.kakaocorp.com/kakaoXmtg/harmonic-feat-extractor.git).
+
 5.-Run the notebook `compute_harmonic_reordering.ipynb` for generating the 10 harmonic reorderings that will be evaluated.
 
 ## Build the listening test webpage
@@ -16,6 +20,7 @@ pip install -r requirements.txt
 streamlit run app/main.py
 ```
 We recommend to deploy the app at [https://share.streamlit.io/](https://share.streamlit.io/).
+
 Keep in mind that you should add your Spotify API credentials in the `share.streamlit` configuration webpage.
 
 ## Saving results in AWS
