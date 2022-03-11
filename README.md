@@ -15,6 +15,7 @@ pip install -r requirements.txt
 ```
 streamlit run app/main.py
 ```
+We recommend to deploy the app at [https://share.streamlit.io/](https://share.streamlit.io/).
 
 ## Saving results in AWS
 
