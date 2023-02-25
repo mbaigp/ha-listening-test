@@ -11,7 +11,7 @@ import numpy as np
 import boto3
 
 DESCRIPTION = """
-👋 Welcome! This experiment should take around 20 minutes of your time.
+👋 Welcome! This experiment should take around 45 minutes of your time.
 
 📢 Only perform this experiment in case you have a somewhat clear idea on what harmony is.
 
