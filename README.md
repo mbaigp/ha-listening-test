@@ -1,4 +1,4 @@
-# Harmonic Reordering listening test
+# Hearing Aids - Listening Test
 ## Installation
 Create and activate virtualenv
 ```shell
